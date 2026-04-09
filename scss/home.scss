@@ -1,0 +1,458 @@
+.hero-banner-main{
+    position: relative;
+    padding: 257px 0 0;
+}
+.banner-img{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 0; 
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+.banner-text {
+    position: relative;
+    z-index: 1;
+    color: $white-text;
+    margin-bottom: 50px;
+
+    h1{
+        font-family: $font-heading;
+        font-size: 72px;
+        font-weight: 500;
+        line-height: 80px;
+        color: $white-text;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    p{
+        color: $white-text; 
+        margin-bottom: 40px;
+    }
+}
+// hero section 
+
+// center section 
+.centeral-text-main{
+    background-color: #E6FCFF;
+    margin-top: -266px;
+    padding: 266px 0 82px;
+}
+.centeral-text{
+    max-width: 1040px;
+    margin: 70px auto 0;
+
+    h2{ 
+        font-family: 'Overused Grotesk';
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 80px;
+        letter-spacing: 12px;
+        color: $black-text;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+
+        strong{
+            font-weight: 700;
+            font-family: $font-text;
+            color: #46A8B5;
+            font-style: italic;
+        }
+    }
+    p{
+        margin-bottom: 40px;
+    }
+}
+// center section 
+.service-offering-section{
+    background-image: url('../images/service-offer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 25px;
+
+    .section-heading{
+        max-width: 1430px;
+        margin: 0 auto;
+        padding-left: 35px;
+    }
+}
+.service-offer-main{
+    max-width: 1430px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.service-offer-card{
+    width: 24.476%;
+    min-height: 420px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    padding: 55px 35px 30px ;
+    border-radius: 20px;
+    background: #61b5c0;
+    background: linear-gradient(-100deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+    background: -webkit-linear-gradient(-100deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+    background: -moz-linear-gradient(-100deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+    overflow: hidden;
+
+     &:hover{
+        .overlay-img{
+            opacity: 1;
+        }
+    }
+
+    h4{
+        font-family: $font-heading;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+        color: $white-text;
+        margin: 20px 0 10px;
+    }
+    p{
+        font-family: $font-text;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        color: $white-text;
+        margin-bottom: 0;
+    }
+}
+.service-border{
+    width: 2px;
+    height: 120px;
+    background-color: $white-text;
+    background: #61b5c0;
+    background: linear-gradient(-100deg,rgba(245, 245, 252, 1) 0%, transparent 100%);
+    background: -webkit-linear-gradient(-100deg,rgba(245, 245, 252, 1) 0%, transparent 100%);
+    background: -moz-linear-gradient(-100deg,rgba(245, 245, 252, 1) 0%, transparent 100%);
+}
+.overlay-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+         background-color: rgba(17, 17, 28, 0.8);
+    }    
+       
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;    
+    }   
+}
+.serice-icon{
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+// company stats 
+.company-stats-section{
+    padding: 80px 0;
+}
+.company-stats-main{ 
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+}
+.company-stats-card{
+    h4{
+        font-family: $font-heading;
+        font-size: 72px;
+        font-weight: 200;
+        line-height: 65px;
+        color: $black-text;
+        margin: 0 0 20px;
+    }
+    p{
+        margin: 0 0;
+    }
+}
+// company stats 
+// company support list 
+.company-support-section{
+    padding: 100px 0;
+    background: #2f5565;
+    // background: linear-gradient(179deg, rgba(47, 85, 101, 0.2) 0%, #172e37 100%);
+    // background: -webkit-linear-gradient(179deg, rgba(47, 85, 101, 0.2) 0%, #172e37 100%);
+    // background: -moz-linear-gradient(179deg, rgba(47, 85, 101, 0.2) 0%, #172e37 100%);
+
+    .section-heading{
+        h3{
+            line-height: 54px;
+        }
+    }
+}
+.company-support-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 40px 0;
+    transition: all 0.5s ease;
+
+    &:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(0deg,rgba(245, 245, 252, 1) 0%, transparent 100%);
+        background: -webkit-linear-gradient(0deg,rgba(245, 245, 252, 1) 0%, transparent 100%);
+        background: -moz-linear-gradient(0deg,rgba(245, 245, 252, 1) 0%, transparent 100%);
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    &.active p,
+    &.active .company-support-list-img {
+        opacity: 1;
+        transform: translateY(0);
+        max-height: 500px; /* enough height */
+    }
+    &.active p{
+        margin: 10px 0 10px;
+    }
+}
+.company-support-list-info{
+    width: 755px;
+
+    h4{
+        font-family: $font-heading;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+        color: $white-text;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+    p{
+        color: $white-text;
+        margin: 0;
+        opacity: 0;
+        transform: translateY(20px);
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+}
+.company-support-list-img{
+    width: 400px;
+    height: 200px;
+    border: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;    
+    }
+}
+// company support list 
+
+// functionality 
+.functionality-section{
+    padding: 100px 0;
+}
+.functionalit-sider-main{
+    padding-left: calc((100vw - 1264px) / 2);
+
+    .slick-list {
+        padding-right: 100px;
+    }
+}
+.functionality-card{
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 12px;
+
+    &:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/functionality-card-overlay.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;    
+    }
+}
+.functionality-card-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 30px 30px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+
+    h4{
+        font-family: $font-heading;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+        color: $white-text;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }   
+    p{
+        color: $white-text;
+        margin: 0 0 13px;
+    }
+    a{
+        position: relative;
+        font-family: $font-text;
+        font-size: 18px;
+        font-weight: 600;
+        color: $primary-color;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2.16px;
+
+        & span{
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+        }
+    }
+}
+.quick-implementation{
+    // padding: 100px 0;
+    position: relative;
+    margin: 100px 0 0;
+    
+}
+.quick-implementation-text{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    max-width: 755px;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h2{
+        font-family: $font-heading;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 54px; 
+        color: $white-text;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+
+        strong{
+            font-weight: 700;   
+        }
+    }
+    p{
+        color: $white-text;
+        margin: 0 0 40px;
+    }
+
+    
+}
+// functionality 
+// <!-- testimonials  -->
+.testimonial-section{
+    background: #61b5c0;
+    background: linear-gradient(-90deg,#61b5c0 0%, transparent 100%);
+    background: -webkit-linear-gradient(-90deg,#61b5c0 0%, transparent 100%);
+    background: -moz-linear-gradient(-90deg,#61b5c0 0%, transparent 100%);
+    margin-top: -373px;
+    padding: 373px 0 100px;
+}
+.testimonial-main .slick-list {
+  margin: 0 -25px; /* 👈 fix outer spacing */
+}
+.testimonial-cards{
+    padding: 60px 30px 57px;
+    background-color: $white-text;
+    border-radius: 20px;
+    margin: 0 25px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+
+    img{
+        position: absolute;
+        top: 60px;
+        right: 30px;
+    }
+
+    h5{
+        font-family: $font-heading;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+        color: $black-text;
+        margin-bottom: -3px;
+    }
+    span{
+        font-family: $font-heading;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: normal;
+        color: $black-text;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .service-border{
+        background: linear-gradient(-100deg, $primary-color 0%, transparent 100%);
+        background: -webkit-linear-gradient(-100deg, $primary-color 0%, transparent 100%);
+        background: -moz-linear-gradient(-100deg, $primary-color 0%, transparent 100%);
+        margin-bottom: 20px;
+    }
+}
+// <!-- testimonials  -->
+

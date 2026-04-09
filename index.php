@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <?php include ('includes/css.php') ?>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+</head>
+<body>
+     <!-- header  -->
+     <?php include ('includes/header.php') ?>
+     <!-- header  -->
+
+    <main>
+        <!-- hero section  -->
+         <section>
+            <div class="hero-banner-main">
+                <div class="banner-img">
+                    <img src="images/home-banner.png" alt="Run a Loan" class="img-fluid">
+                </div>
+                <div class="container position-relative">
+                    <div class="banner-text text-center">
+                        <h1>Unlock Your Full Potential</h1>
+                        <p>
+                            With our user-friendly, extremely powerful, loan management system.
+                        </p>
+                        <a href="#" class="btn btn-site">
+                            Request a Demo
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="banner-group-image">
+                        <img src="images/banner-group-image.png" alt="Run a Loan" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- hero section  -->
+
+        <!-- centeral large text  -->
+         <section class="centeral-text-main">
+            <div class="container">
+                <div class="centeral-text text-center">
+                    <h2>
+                        The fastest way to grow <img src="images/text-img.png" class="img-fluid" />
+                        your business with the Most <strong>flexible</strong> 
+                        loan management system. 
+                    </h2>
+                    <p>
+                        Check out our options and features included. 
+                    </p>
+                    <a href="#" class="btn btn-site">
+                        Request a Demo
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+         </section>
+        <!-- centeral large text  -->
+
+        <!-- services cards  -->
+         <section class="service-offering-section">
+            <div class="section-heading">
+                <h3 class="text-white">Upgrade your offerings</h3>
+            </div>
+
+            <div class="service-offer-main">
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv1.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>Mobile Money</h4>
+                    <p>Disburse and collect from mobile money wallets.</p>
+                </div>
+
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv2.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>Debit Orders</h4>
+                    <p>Collect payments directly from customer's bank accounts.</p>
+                </div>
+
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv3.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>USSD</h4>
+                    <p>Enable transactions from mobile phones via a USSD interface.</p>
+                </div>
+
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv4.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>Payroll Deductions</h4>
+                    <p>Manage your collections from private and government employer payrolls.</p>
+                </div>
+
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv5.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>EFT</h4>
+                    <p>Payout directly to bank accounts using automated batches or real-time transactions.</p>
+                </div>
+
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv6.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>WhatsApp</h4>
+                    <p>WhatsApp integration for client onboarding, management and other channels.</p>
+                </div>
+
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv7.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>Credit Bureaus</h4>
+                    <p>Credit checks, scoring and submission of credit data to and from credit bureaus.</p>
+                </div>
+
+                <div class="service-offer-card">
+                    <div class="overlay-img">
+                        <img src="images/so1.png">
+                    </div>
+                    <img src="images/sv8.svg" alt="Mobile Money" class="serice-icon" />
+                    <div class="service-border"></div>
+                    <h4>Customer Portal</h4>
+                    <p>Customised Web-application for your customers to apply for loans, view statements, request settlements all seamlessly integrated with the back-end.</p>
+                </div>
+ 
+            </div>
+                
+                 
+         </section>
+        <!-- services cards  -->
+
+        <!-- company stats  -->
+         <section class="company-stats-section">
+            <div class="container">
+                <div class="company-stats-main">
+                    <div class="company-stats-card">
+                        <h4><span>100</span>%</h4>
+                        <p>Customer Retention</p>
+                    </div>
+
+                    <div class="company-stats-card">
+                        <h4><span>38</span></h4>
+                        <p>Years Industry Experience</p>
+                    </div>
+
+                    <div class="company-stats-card">
+                        <h4><span>100</span>%</h4>
+                        <p>Happy Clients</p>
+                    </div>
+
+                    <div class="company-stats-card">
+                        <h4><span>3126238</span></h4>
+                        <p>Loans Managed</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- company stats  -->
+
+        <!-- company support  -->
+         <section class="company-support-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h3 class="text-white">
+                        What <span><strong>RUN-A-LOAN </strong></span> <br/>
+                        can do for you
+                    </h3>
+                </div>
+                <div class="company-support-list-main">
+                    <div class="company-support-list">
+                        <div class="company-support-list-info">
+                            <h4>Enhances your image</h4>
+                            <p>Professional documents and communications ensuring your corporate branding is consistent. Our customer portal and WhatsApp channels provide online application channels for your business. The advanced functionality of the RUN-A-LOAN system will make you to stand out from crowd.</p> 
+                        </div>
+                        <div class="company-support-list-img">
+                            <img src="images/support1.png" alt="Run a Loan">
+                        </div>
+                    </div>
+                    <div class="company-support-list">
+                        <div class="company-support-list-info">
+                            <h4>Expands your products</h4>
+                            <p>Nano loans, payday loans, micro-loans, home loans, vehicle loans, taxi loans, building loans, agricultural loans, savings products, reward accounts and more. If you can lend it, RUN-A-LOAN can manage it.</p> 
+                        </div>
+                        <div class="company-support-list-img">
+                            <img src="images/support1.png" alt="Run a Loan">
+                        </div>
+                    </div>
+
+                    <div class="company-support-list">
+                        <div class="company-support-list-info">
+                            <h4>Ensures compliance</h4>
+                            <p>Not only in terms of users complying with your business rules but regulatory compliance too. Audit-ability of all financial transactions in the system is standard.</p> 
+                        </div>
+                        <div class="company-support-list-img">
+                            <img src="images/support1.png" alt="Run a Loan">
+                        </div>
+                    </div>
+                    <div class="company-support-list">
+                        <div class="company-support-list-info">
+                            <h4>Increases profitability</h4>
+                            <p>Reducing the administrative burden, increasing your collections rate and improving turnaround times. This together with automation and the flexibility to adjust your offerings to meet market demands, quickly and efficiently, will certainly increase your profitability.</p>  
+                        </div>
+                        <div class="company-support-list-img">
+                            <img src="images/support1.png" alt="Run a Loan">
+                        </div>
+                    </div>
+
+                    <div class="company-support-list">
+                        <div class="company-support-list-info">
+                            <h4>Saves you money</h4>
+                            <p>You will not need any additional IT infrastructure or staff. No need to worry about disaster recovery, backups, monitoring etc as this is all taken care of. You can focus on taking care of your business.</p> 
+                        </div>
+                        <div class="company-support-list-img">
+                            <img src="images/support1.png" alt="Run a Loan">
+                        </div>
+                    </div>
+                    <div class="company-support-list">
+                        <div class="company-support-list-info">
+                            <h4>Saves you time</h4>
+                            <p>Streamlined processes, automated collections, disbursements, scoring, approvals and comprehensive reporting capabilities. Real-time accounting package integration is also available, removing the need for manual interventions.</p> 
+                        </div>
+                        <div class="company-support-list-img">
+                            <img src="images/support1.png" alt="Run a Loan">
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- company support  -->
+
+        <!-- functionality -->
+         <section class="functionality-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Functionality</h3>
+                </div>
+            </div>
+    
+            <div class="functionalit-sider-main">
+                <div class="functionality-card">
+                    <img src="images/f1.png" alt="Run a Loan">  
+                    <div class="functionality-card-text"> 
+                        <h4>Product management</h4>
+                        <p>
+                            RUN-A-LOAN is able to cater for a large range of products, giving you flexibility to tailor your lending offerings.
+                        </p>
+                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                    </div>
+                </div>
+
+                <div class="functionality-card">
+                    <img src="images/f2.png" alt="Run a Loan">  
+                    <div class="functionality-card-text"> 
+                        <h4>Business Administration</h4>
+                        <p>
+                            From chart of accounts management, statements, audit trails to personalised business rules. 
+                        </p>
+                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                    </div>
+                </div>
+
+                <div class="functionality-card">
+                    <img src="images/f3.png" alt="Run a Loan">  
+                    <div class="functionality-card-text"> 
+                        <h4>Client Management</h4>
+                        <p>
+                            The RUN-A-LOAN solution provides a single view of a client, making client management simple and efficient. 
+                        </p>
+                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                    </div>
+                </div>
+
+                <div class="functionality-card">
+                    <img src="images/f4.png" alt="Run a Loan">  
+                    <div class="functionality-card-text"> 
+                        <h4>System Management</h4>
+                        <p>
+                            Cloud based, fully managed. No need for additional IT staff or equipment, internet access is all that is required. 
+                        </p>
+                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                    </div>
+                </div>
+
+                <div class="functionality-card">
+                    <img src="images/f4.png" alt="Run a Loan">  
+                    <div class="functionality-card-text"> 
+                        <h4>Scalability & Sustainability</h4>
+                        <p>
+                            Starting a lending business? Managing a enterprise lending business? RUN-A-LOAN will cater for your requirements. 
+                        </p>
+                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                    </div>
+                </div>
+
+                <div class="functionality-card">
+                    <img src="images/f4.png" alt="Run a Loan">  
+                    <div class="functionality-card-text"> 
+                        <h4>Integrations</h4>
+                        <p>
+                            Credit bureaus, Payment bureaus, Selfie verification, Bank statement collection and much more. 
+                        </p>
+                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                    </div>
+                </div>
+ 
+            </div>
+
+            <!-- Quick implementation  -->
+             <div class="container">
+                <div class="quick-implementation">
+                    <img src="images/quick-implementation.png" />
+                    <div class="quick-implementation-text"> 
+                        <h2>
+                            <strong>Quick</strong> to implement, <br/>
+                            <strong>Quick</strong>to learn and use.
+                        </h2>
+                        <p>
+                            The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.
+                        </p>
+                        <a href="#" class="btn btn-site">
+                            Request a Demo
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>  
+                </div>
+             </div>
+            <!-- Quick implementation  -->
+         </section>
+        <!-- functionality -->
+
+        <!-- testimonials  -->
+         <section class="testimonial-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h3>Happy clients</h3>
+                </div>
+
+                <div class="testimonial-main">
+                    <div class="testimonial-cards">
+                        <h5>Mr H. Mahlangu</h5>
+                        <span>Chief Executive Officer</span>
+                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
+                        <div class="service-border"></div>
+                        <p>
+                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
+                        </p>
+                    </div>
+
+                    <div class="testimonial-cards">
+                        <h5>Mr H. Mahlangu</h5>
+                        <span>Chief Executive Officer</span>
+                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
+                        <div class="service-border"></div>
+                        <p>
+                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
+                        </p>
+                    </div>
+
+                    <div class="testimonial-cards">
+                        <h5>Mr H. Mahlangu</h5>
+                        <span>Chief Executive Officer</span>
+                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
+                        <div class="service-border"></div>
+                        <p>
+                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
+                        </p>
+                    </div>
+
+                    <div class="testimonial-cards">
+                        <h5>Mr H. Mahlangu</h5>
+                        <span>Chief Executive Officer</span>
+                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
+                        <div class="service-border"></div>
+                        <p>
+                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- testimonials  -->
+    </main
+
+     <?php include ('includes/footer.php') ?>
+     <?php include ('includes/js.php') ?>
+
+ 
+     <script>      
+        <!-- company stats  -->
+
+        const section = document.querySelector(".company-stats-section");
+        const counters = document.querySelectorAll(".company-stats-card h4 span");
+
+        let started = false;
+
+        function animateCounter(el, target) {
+            let start = 0;
+            let duration = 2000; // ms
+            let startTime = null;
+
+            function updateCounter(timestamp) {
+                if (!startTime) startTime = timestamp;
+                let progress = Math.min((timestamp - startTime) / duration, 1);
+
+                let value = Math.floor(progress * target);
+                el.textContent = value;
+
+                if (progress < 1) {
+                requestAnimationFrame(updateCounter);
+                } else {
+                el.textContent = target; // ensure exact value
+                }
+            }
+
+            requestAnimationFrame(updateCounter);
+        }
+
+        // 👇 Trigger when section enters viewport
+        function handleScroll() {
+            const rect = section.getBoundingClientRect();
+
+            if (!started && rect.top < window.innerHeight * 0.8) {
+                started = true;
+
+                counters.forEach(counter => {
+                const target = parseInt(counter.textContent, 10);
+                animateCounter(counter, target);
+                });
+            }
+        }
+
+        window.addEventListener("scroll", handleScroll);
+        window.addEventListener("load", handleScroll);
+        <!-- company stats  -->
+
+        <!-- company list show on hover  -->
+        const items = document.querySelectorAll(".company-support-list");
+        items[0].classList.add("active");
+
+        items.forEach(item => {
+            item.addEventListener("mouseenter", () => {
+
+                // remove active from all
+                items.forEach(i => i.classList.remove("active"));
+
+                // add active to current
+                item.classList.add("active");
+            });
+        });
+        <!-- company list show on hover  -->
+
+        <!-- functionality slider  -->
+        $('.functionalit-sider-main').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            autoplay: true,
+            infinite: true
+        });
+        <!-- functionality slider  -->
+
+        <!-- testimonial slider  -->
+         
+         $('.testimonial-main').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            autoplay: false,
+            infinite: true
+        });
+
+     </script>
+
+
+     
+</body>
+</html>

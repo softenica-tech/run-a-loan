@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    padding: 30px 30px; 
+    position: fixed;
+    top: 0;
+    z-index: 9;
+
+    .container{
+        max-width: 1384px;
+    }   
+    .navbar{
+        background-color: rgba(17, 17, 28, 0.9);
+        backdrop-filter: blur(12px);
+        color: $white-text;
+        border-radius: 20px;
+        padding: 25px 60px;
+        position: sticky;
+        top: 0;
+    }
+    .nav-item {
+        padding: 0 20px;
+
+        .nav-link{  
+            font-family: $font-text;
+            font-weight: 300;
+            font-size: 16px;
+            color: $white-text;
+            position: relative;
+            padding: 3px 0 !important;
+            line-height: normal;
+            letter-spacing: 1.92px;
+            text-transform: uppercase;
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 0%;
+                height: 1px;
+                background-color: $white-text;
+                bottom: -5px;
+                left: 0;
+                transition: width 0.3s ease-in-out;
+            }
+
+            &:hover{
+                color: $white-text;
+                &::before{
+                    width: 100%;
+                }
+            }
+
+            &.active, &:focus{
+                color: $white-text !important;
+                &::before{
+                    width: 100%;
+                }
+            }
+
+        }
+        .dropdown-item{
+            color: $black-text;
+        }
+    }
+
+    .btn-site{
+        min-width: 218px;
+        height: 58px;
+        margin-left: 20px;
+
+        span{
+            width: 58px;
+            height: 58px; 
+        }
+    }
+
+
+}
