@@ -2,7 +2,7 @@
 <html lang="en">
 <head> 
     <?php include ('includes/css.php') ?>
-    <title>Home</title>
+    <title>Home - Run A Loan</title>
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
 </head>
@@ -48,10 +48,10 @@
          <section class="centeral-text-main">
             <div class="container">
                 <div class="centeral-text text-center">
-                    <h2>
+                    <h2 class="reveal-text">
                         The fastest way to grow <img src="images/text-img.png" class="img-fluid" />
-                        your business with the Most <strong>flexible</strong> 
-                        loan management system. 
+                        your business with the Most <strong class="no-animate">flexible</strong> 
+                        loan management system
                     </h2>
                     <p>
                         Check out our options and features included. 
@@ -602,7 +602,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script> 
     <!-- ScrollTrigger -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-
+    <!-- SplitType -->
+    <script src="https://unpkg.com/split-type"></script>
  
      <script>      
         <!-- company stats  -->
@@ -741,6 +742,54 @@
             });
 
         // parallex effect 
+
+        // character animation 
+        // ✅ Register GSAP plugin
+        function initLineReveal() {
+            const el = document.querySelector(".reveal-text");
+            if (!el) return;
+
+            // ❌ IMPORTANT: kill previous split if re-run
+            if (el.splitInstance) {
+                el.splitInstance.revert();
+            }
+
+            // ✅ SplitType (ONLY THIS)
+            const split = new SplitType(el, {
+                types: "lines",
+                tagName: "span"
+            });
+
+            el.splitInstance = split;
+
+            // ✅ Animate lines
+            gsap.fromTo(split.lines,
+                {
+                backgroundPosition: "100% 0"
+                },
+                {
+                backgroundPosition: "0% 0",
+                ease: "none",
+                stagger: 0.5,
+                scrollTrigger: {
+                    trigger: ".reveal-text",
+                    start: "top 80%",
+                    end: "bottom 60%",
+                    scrub: true,
+                    // markers: true
+                }
+                }
+            );
+        }
+
+        // RUN AFTER FULL LOAD
+        window.addEventListener("load", initLineReveal);
+        // ✅ Split only TEXT nodes (skip strong & img)
+
+        // Refresh GSAP on resize screen 
+        window.addEventListener("resize", () => {
+            ScrollTrigger.refresh();
+        });
 
 
         const packageCards = document.querySelectorAll('.package-card');

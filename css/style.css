@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 
 How to Use
 @include border(10px, 10px, 10px, 10px, transparent, transparent, transparent, #000000 );
@@ -431,6 +432,7 @@ header .btn-site span svg {
 }
 .site-footer-brand img {
   width: 100%;
+  mix-blend-mode: multiply;
 }
 
 .site-footer-intro {
@@ -771,6 +773,29 @@ header .btn-site span svg {
 }
 .centeral-text p {
   margin-bottom: 40px;
+}
+
+/* Animated letters */
+.line {
+  display: block;
+  background: linear-gradient(90deg, #0c1e21 50%, #a9b8b8 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0; /* 👈 STARTING POINT */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Keep strong text normal */
+.no-animate,
+.reveal-text img {
+  background: none !important;
+  -webkit-text-fill-color: initial !important;
+}
+
+.no-animate {
+  color: #61b5c0;
+  -webkit-text-fill-color: initial;
+  background: none;
 }
 
 .service-offering-section {

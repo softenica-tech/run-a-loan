@@ -89,6 +89,34 @@
         margin-bottom: 40px;
     }
 }
+/* Animated letters */
+    .line {
+  display: block;
+
+  background: linear-gradient(
+    90deg,
+    #0c1e21 50%,   /* active color */
+    #a9b8b8 50%    /* grey */
+  );
+
+  background-size: 200% 100%;
+  background-position: 100% 0; /* 👈 STARTING POINT */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+    /* Keep strong text normal */
+    .no-animate,
+    .reveal-text img {
+    background: none !important;
+    -webkit-text-fill-color: initial !important; 
+    }
+    .no-animate {
+      color: #61b5c0;
+      -webkit-text-fill-color: initial;
+      background: none;
+    }
 // center section 
 .service-offering-section{
     background-image: url('../images/service-offer-bg.png');
