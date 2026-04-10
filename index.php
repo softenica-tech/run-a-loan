@@ -34,8 +34,10 @@
                         </a>
                     </div>
 
-                    <div class="banner-group-image">
-                        <img src="images/banner-group-image.png" alt="Run a Loan" class="img-fluid">
+                    <div class="banner-group-image-main"> 
+                        <div class="banner-group-image">
+                            <img src="images/banner-group-image.png" alt="Run a Loan" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -594,6 +596,12 @@
 
      <?php include ('includes/footer.php') ?>
      <?php include ('includes/js.php') ?>
+     <!-- Lenis -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script> 
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script> 
+    <!-- ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
 
  
      <script>      
@@ -697,6 +705,43 @@
                 }
             ]
         });
+
+        // parallex effect 
+             gsap.registerPlugin(ScrollTrigger);
+
+            const lenis = new Lenis({
+            lerp: 0.07
+            });
+
+            lenis.on('scroll', ScrollTrigger.update);
+
+            gsap.ticker.add((time)=>{
+            lenis.raf(time * 1000)
+            })
+
+            // Images parallax
+            gsap.utils.toArray('.banner-group-image').forEach(container => {
+                const img = container.querySelector('.banner-group-image img');
+
+                const tl = gsap.timeline({
+                    scrollTrigger: {
+                    trigger: container,
+                    scrub: true,
+                    pin: false,
+                    }
+                });
+
+                tl.fromTo(img, {
+                    yPercent: -20,
+                    ease: 'none'
+                }, {
+                    yPercent: 20,
+                    ease: 'none'
+                });
+            });
+
+        // parallex effect 
+
 
         const packageCards = document.querySelectorAll('.package-card');
 

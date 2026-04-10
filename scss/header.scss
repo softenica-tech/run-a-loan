@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    padding: 30px 30px; 
+    padding: 15px 30px; 
     position: fixed;
     top: 0;
     z-index: 9;
@@ -13,7 +13,7 @@ header{
         backdrop-filter: blur(12px);
         color: $white-text;
         border-radius: 20px;
-        padding: 25px 60px;
+        padding: 15px 60px;
         position: sticky;
         top: 0;
     }
@@ -34,25 +34,29 @@ header{
             &::before{
                 content: "";
                 position: absolute;
-                width: 0%;
-                height: 1px;
-                background-color: $white-text;
-                bottom: -5px;
-                left: 0;
+                width: 0;
+                height: 16px;
+                background-image: url('../images/menu-active.svg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                bottom: -30px;
+                left: 50%;
+                transform: translateX(-50%);
                 transition: width 0.3s ease-in-out;
             }
 
             &:hover{
                 color: $white-text;
                 &::before{
-                    width: 100%;
+                    width: 64px;
                 }
             }
 
             &.active, &:focus{
                 color: $white-text !important;
                 &::before{
-                    width: 100%;
+                    width: 64px;
                 }
             }
 
@@ -69,13 +73,20 @@ header{
     }
 
     .btn-site{
-        min-width: 218px;
-        height: 58px;
+        min-width: 185px;
+        height: 48px;
         margin-left: 20px;
 
         span{
-            width: 58px;
-            height: 58px; 
+            width: 45px;
+            height: 45px;
+            right: -25px; 
+
+            svg{
+                width: 15px;
+                height: 15px;
+
+            }
         }
     }
 

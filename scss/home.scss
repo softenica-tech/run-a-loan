@@ -2,6 +2,27 @@
     position: relative;
     padding: 257px 0 0;
 }
+.banner-group-image-main{
+    position: relative; 
+    height: 600px; 
+}
+.banner-group-image{
+    width: 100%;
+      padding-top: 600px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+
+    img {
+        width: auto;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) scale(1);
+        transform-origin: 50% 50%;
+    }
+}
 .banner-img{
     width: 100%;
     height: 900px;
