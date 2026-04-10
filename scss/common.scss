@@ -160,6 +160,37 @@ b, strong {
         }
     }
 }
+.btn-site-alt{
+    background-color: $primary-color;
+    color: $black-text;
+    border-color: $primary-color;
+
+    span{
+        background-color: $black-text;
+
+        svg{
+            path{
+                fill: $primary-color;
+            }
+        }
+    }
+
+    &:hover{
+        background-color: $black-text;
+        color: $primary-color;
+        border-color: $black-text;
+
+        span{
+            background-color: $primary-color;
+
+            svg{
+                path{
+                    fill: $black-text;
+                }
+            }
+        }
+    }
+}
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1264px;

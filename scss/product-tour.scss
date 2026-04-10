@@ -1,0 +1,288 @@
+.product-tour-page{
+    background-color: #e6fcff;
+}
+.product-tour-hero{
+    min-height: 500px;
+    padding: 180px 0 76px;
+    background-color: #010408;
+    background-image: url('../images/product-tour/Rectangle 2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-tour-hero-inner{
+    min-height: 244px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1{
+        font-family: $font-heading;
+        font-size: 78px;
+        font-weight: 500;
+        line-height: 1;
+        color: $white-text;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+.product-tour-intro{
+    padding: 76px 0 88px;
+    background-color: #e6fcff;
+}
+.product-tour-intro-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.product-tour-intro-copy{
+    max-width: 820px;
+
+    h2{
+        font-family: $font-heading;
+        font-size: 54px;
+        font-weight: 500;
+        line-height: 1.05;
+        color: $black-text;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+
+        span{
+            display: block;
+            color: #46a8b5;
+        }
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 1.6;
+        margin: 0;
+    }
+}
+.product-tour-cards{
+    background-color: #f4f3fb;
+    padding: 98px 0 92px;
+}
+.product-tour-card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 26px;
+}
+.product-tour-card{
+    position: relative;
+    min-height: 480px;
+    border-radius: 22px;
+    overflow: hidden;
+}
+.product-tour-card-bg,
+.product-tour-card-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+.product-tour-card-bg{
+    object-fit: cover;
+}
+.product-tour-card-overlay{
+    background: linear-gradient(180deg, rgba(17, 17, 28, 0.48) 0%, rgba(17, 17, 28, 0.88) 100%);
+}
+.product-tour-card-content{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    padding: 34px 20px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.product-tour-card-icon{
+    position: absolute;
+    top: 34px;
+    left: 20px;
+    width: 36px;
+    height: 36px;
+}
+.product-tour-card-line{
+    width: 2px;
+    height: 132px;
+    background: linear-gradient(180deg, #f5f5fc 0%, transparent 100%);
+    margin-bottom: auto;
+    opacity: 0.9;
+}
+.product-tour-card{
+    h3{
+        font-family: $font-heading;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.05;
+        color: $white-text;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+}
+.product-tour-card-tag{
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background-color: #77d6e3;
+    font-family: $font-text;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: $black-text;
+}
+.product-tour-cta-panel{
+    background-color: #e6fcff;
+    padding: 0 0 94px;
+}
+.product-tour-cta-inner{
+    position: relative;
+    min-height: 526px;
+    border-radius: 28px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.product-tour-cta-bg,
+.product-tour-cta-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+.product-tour-cta-bg{
+    object-fit: cover;
+}
+.product-tour-cta-overlay{
+    background: rgba(4, 18, 29, 0.68);
+}
+.product-tour-cta-content{
+    position: relative;
+    z-index: 1;
+    max-width: 820px;
+    padding: 50px 32px;
+
+    h2{
+        font-family: $font-heading;
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 1.04;
+        color: $white-text;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+
+    p{
+        color: $white-text;
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 36px;
+    }
+}
+
+@media (max-width: 1199px){
+    .product-tour-hero-inner h1{
+        font-size: 64px;
+    }
+    .product-tour-intro-copy h2{
+        font-size: 46px;
+    }
+    .product-tour-card-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .product-tour-cta-content h2{
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 991px){
+    .product-tour-hero{
+        min-height: 420px;
+        padding-top: 160px;
+    }
+    .product-tour-hero-inner{
+        min-height: 180px;
+    }
+    .product-tour-hero-inner h1{
+        font-size: 52px;
+    }
+    .product-tour-intro{
+        padding: 64px 0 72px;
+    }
+    .product-tour-intro-inner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .product-tour-intro-copy h2{
+        font-size: 40px;
+    }
+    .product-tour-cards{
+        padding: 76px 0 76px;
+    }
+    .product-tour-cta-inner{
+        min-height: 460px;
+    }
+    .product-tour-cta-content h2{
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 767px){
+    .product-tour-hero{
+        min-height: 340px;
+        padding: 140px 0 52px;
+    }
+    .product-tour-hero-inner{
+        min-height: 128px;
+    }
+    .product-tour-hero-inner h1{
+        font-size: 40px;
+    }
+    .product-tour-intro{
+        padding: 48px 0 56px;
+    }
+    .product-tour-intro-copy h2{
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .product-tour-intro-copy p{
+        font-size: 17px;
+    }
+    .product-tour-card-grid{
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .product-tour-card{
+        min-height: 420px;
+    }
+    .product-tour-cards{
+        padding: 54px 0 56px;
+    }
+    .product-tour-cta-panel{
+        padding-bottom: 62px;
+    }
+    .product-tour-cta-inner{
+        min-height: 400px;
+        border-radius: 22px;
+    }
+    .product-tour-cta-content{
+        padding: 34px 20px;
+    }
+    .product-tour-cta-content h2{
+        font-size: 34px;
+    }
+    .product-tour-cta-content p{
+        font-size: 17px;
+        margin-bottom: 28px;
+    }
+}

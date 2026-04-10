@@ -24,7 +24,7 @@
                         <p>
                             With our user-friendly, extremely powerful, loan management system.
                         </p>
-                        <a href="#" class="btn btn-site">
+                        <a href="request-demo.php" class="btn btn-site">
                             Request a Demo
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -54,7 +54,7 @@
                     <p>
                         Check out our options and features included. 
                     </p>
-                    <a href="#" class="btn btn-site">
+                    <a href="request-demo.php" class="btn btn-site">
                         Request a Demo
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -275,7 +275,7 @@
                         <p>
                             RUN-A-LOAN is able to cater for a large range of products, giving you flexibility to tailor your lending offerings.
                         </p>
-                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                        <a href="product-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                     </div>
                 </div>
 
@@ -286,7 +286,7 @@
                         <p>
                             From chart of accounts management, statements, audit trails to personalised business rules. 
                         </p>
-                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                        <a href="business-administration.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                     </div>
                 </div>
 
@@ -297,7 +297,7 @@
                         <p>
                             The RUN-A-LOAN solution provides a single view of a client, making client management simple and efficient. 
                         </p>
-                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                        <a href="client-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                     </div>
                 </div>
 
@@ -308,7 +308,7 @@
                         <p>
                             Cloud based, fully managed. No need for additional IT staff or equipment, internet access is all that is required. 
                         </p>
-                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                        <a href="system-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                     </div>
                 </div>
 
@@ -319,7 +319,7 @@
                         <p>
                             Starting a lending business? Managing a enterprise lending business? RUN-A-LOAN will cater for your requirements. 
                         </p>
-                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                        <a href="system-scalability.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                     </div>
                 </div>
 
@@ -330,7 +330,7 @@
                         <p>
                             Credit bureaus, Payment bureaus, Selfie verification, Bank statement collection and much more. 
                         </p>
-                        <a href="#">Learn more <span><img src="images/learn-arrow.svg" alt="----------" class="img-fluid"></span></a>
+                        <a href="integrations.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                     </div>
                 </div>
  
@@ -348,7 +348,7 @@
                         <p>
                             The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.
                         </p>
-                        <a href="#" class="btn btn-site">
+                        <a href="request-demo.php" class="btn btn-site">
                             Request a Demo
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -367,53 +367,229 @@
          <section class="testimonial-section">
             <div class="container">
                 <div class="section-heading text-center">
-                    <h3>Happy clients</h3>
+                    <h3>Happy Clients</h3>
                 </div>
 
-                <div class="testimonial-main">
-                    <div class="testimonial-cards">
-                        <h5>Mr H. Mahlangu</h5>
-                        <span>Chief Executive Officer</span>
-                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
-                        <div class="service-border"></div>
-                        <p>
-                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
-                        </p>
+                <div class="testimonial-slider-shell">
+                    <button class="testimonial-arrow testimonial-arrow-prev" type="button" aria-label="Previous testimonial">
+                        <img src="images/testimonial-arrow.png" alt="" class="img-fluid">
+                    </button>
+
+                    <div class="testimonial-main">
+                        <div class="testimonial-cards">
+                            <img src="images/quotes.svg" alt="" class="testimonial-quote img-fluid" />
+                            <h5>Mr H. Mahlangu</h5>
+                            <span>Chief Executive Officer</span>
+                            <div class="service-border"></div>
+                            <p>
+                                The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
+                            </p>
+                        </div>
+
+                        <div class="testimonial-cards">
+                            <img src="images/quotes.svg" alt="" class="testimonial-quote img-fluid" />
+                            <h5>Mrs T. Olivier</h5>
+                            <span>Head Business Systems</span>
+                            <div class="service-border"></div>
+                            <p>
+                                Their integration into financial services, dialers, courier services and credit bureaus is seamless. The team is amazing and extremely dedicated, a pleasure to work with.
+                            </p>
+                        </div>
+
+                        <div class="testimonial-cards">
+                            <img src="images/quotes.svg" alt="" class="testimonial-quote img-fluid" />
+                            <h5>Mr F. Fourie</h5>
+                            <span>Chief Executive Officer</span>
+                            <div class="service-border"></div>
+                            <p>
+                                The system and the team behind it brought us into the 21st Century. A fantastic solution that has helped improve our business turnover and reduced our expenditure.
+                            </p>
+                        </div>
+
+                        <div class="testimonial-cards">
+                            <img src="images/quotes.svg" alt="" class="testimonial-quote img-fluid" />
+                            <h5>Ms L. Daniels</h5>
+                            <span>Operations Manager</span>
+                            <div class="service-border"></div>
+                            <p>
+                                RUN-A-LOAN gave our team structure, visibility and far faster turnaround times. The onboarding flow feels effortless for staff and customers alike.
+                            </p>
+                        </div>
+
+                        <div class="testimonial-cards">
+                            <img src="images/quotes.svg" alt="" class="testimonial-quote img-fluid" />
+                            <h5>Mr P. Naidoo</h5>
+                            <span>Finance Director</span>
+                            <div class="service-border"></div>
+                            <p>
+                                Reporting, collections and automation all improved at once. It is rare to find a platform that is this configurable while still being simple for teams to adopt.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="testimonial-cards">
-                        <h5>Mr H. Mahlangu</h5>
-                        <span>Chief Executive Officer</span>
-                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
-                        <div class="service-border"></div>
-                        <p>
-                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
-                        </p>
-                    </div>
-
-                    <div class="testimonial-cards">
-                        <h5>Mr H. Mahlangu</h5>
-                        <span>Chief Executive Officer</span>
-                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
-                        <div class="service-border"></div>
-                        <p>
-                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
-                        </p>
-                    </div>
-
-                    <div class="testimonial-cards">
-                        <h5>Mr H. Mahlangu</h5>
-                        <span>Chief Executive Officer</span>
-                        <img src="images/quotes.svg" alt="'" class="img-fluid" />
-                        <div class="service-border"></div>
-                        <p>
-                            The skills set of the RUN-A-LOAN team is world-class. Their flexibility is truly a rarity. They accommodate our constantly changing requirements with a smile.
-                        </p>
-                    </div>
+                    <button class="testimonial-arrow testimonial-arrow-next" type="button" aria-label="Next testimonial">
+                        <img src="images/testimonial-arrow.png" alt="" class="img-fluid">
+                    </button>
                 </div>
             </div>
          </section>
         <!-- testimonials  -->
+
+        <!-- packages  -->
+         <section class="packages-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h3 class="text-white">Packages</h3>
+                </div>
+
+                <div class="packages-accordion">
+                    <article class="package-card is-open">
+                        <button class="package-toggle" type="button" aria-expanded="true">
+                            <span class="package-title">Standard</span>
+                            <span class="package-icon">
+                                <img class="package-icon-plus" src="images/package-plus.svg" alt="">
+                                <img class="package-icon-minus" src="images/package-minus.svg" alt="">
+                            </span>
+                        </button>
+
+                        <div class="package-panel">
+                            <div class="package-panel-content">
+                                <div class="package-copy">
+                                    <div class="package-copy-grid">
+                                        <ul class="package-list">
+                                            <li>Integration to credit bureaus *</li>
+                                            <li>Automated collections *</li>
+                                            <li><strong>Customised</strong> documents &amp; reports</li>
+                                            <li><strong>24/7</strong> Critical system support</li>
+                                            <li><strong>24/7</strong> System monitoring</li>
+                                        </ul>
+
+                                        <div class="package-secondary-copy">
+                                            <ul class="package-list">
+                                                <li>Office hours business support</li>
+                                                <li><strong>Fully</strong> managed and hosted</li>
+                                                <li>DR recovery site</li>
+                                            </ul>
+
+                                            <div class="package-notes">
+                                                <p>* where applicable / possible</p>
+                                                <p>** conditions and costs may apply</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <a href="request-demo.php" class="btn btn-site package-cta">
+                                        Get a Quote
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+
+                                <div class="package-media">
+                                    <img src="images/packages-team.png" alt="Run a Loan team in discussion" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="package-card">
+                        <button class="package-toggle" type="button" aria-expanded="false">
+                            <span class="package-title">Unique</span>
+                            <span class="package-icon">
+                                <img class="package-icon-plus" src="images/package-plus.svg" alt="">
+                                <img class="package-icon-minus" src="images/package-minus.svg" alt="">
+                            </span>
+                        </button>
+
+                        <div class="package-panel">
+                            <div class="package-panel-content">
+                                <div class="package-copy">
+                                    <div class="package-copy-grid">
+                                        <ul class="package-list">
+                                            <li>Tailored workflow rules for niche lending models</li>
+                                            <li>Custom onboarding and approval journeys</li>
+                                            <li>Dedicated implementation guidance</li>
+                                            <li>Flexible integration options for your ecosystem</li>
+                                        </ul>
+
+                                        <div class="package-secondary-copy">
+                                            <ul class="package-list">
+                                                <li>Role-based access and audit visibility</li>
+                                                <li>Extended analytics and operational insights</li>
+                                                <li>Priority business-hours support</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <a href="request-demo.php" class="btn btn-site package-cta">
+                                        Get a Quote
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+
+                                <div class="package-media">
+                                    <img src="images/packages-team.png" alt="Run a Loan team in discussion" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="package-card">
+                        <button class="package-toggle" type="button" aria-expanded="false">
+                            <span class="package-title">Enterprise</span>
+                            <span class="package-icon">
+                                <img class="package-icon-plus" src="images/package-plus.svg" alt="">
+                                <img class="package-icon-minus" src="images/package-minus.svg" alt="">
+                            </span>
+                        </button>
+
+                        <div class="package-panel">
+                            <div class="package-panel-content">
+                                <div class="package-copy">
+                                    <div class="package-copy-grid">
+                                        <ul class="package-list">
+                                            <li>High-volume processing for large operations</li>
+                                            <li>Advanced compliance and governance controls</li>
+                                            <li>Multi-branch and multi-product configuration</li>
+                                            <li>Deep integration support across core systems</li>
+                                        </ul>
+
+                                        <div class="package-secondary-copy">
+                                            <ul class="package-list">
+                                                <li>Enhanced uptime, monitoring and resilience options</li>
+                                                <li>Strategic support and solution advisory</li>
+                                                <li>Custom reporting and executive dashboards</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <a href="request-demo.php" class="btn btn-site package-cta">
+                                        Get a Quote
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+
+                                <div class="package-media">
+                                    <img src="images/packages-team.png" alt="Run a Loan team in discussion" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+         </section>
+        <!-- packages  -->
     </main
 
      <?php include ('includes/footer.php') ?>
@@ -500,10 +676,44 @@
          $('.testimonial-main').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
-            arrows: false,
+            prevArrow: $('.testimonial-arrow-prev'),
+            nextArrow: $('.testimonial-arrow-next'),
+            arrows: true,
             dots: false,
             autoplay: false,
-            infinite: true
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+        const packageCards = document.querySelectorAll('.package-card');
+
+        packageCards.forEach(card => {
+            const toggle = card.querySelector('.package-toggle');
+
+            toggle.addEventListener('click', () => {
+                const isAlreadyOpen = card.classList.contains('is-open');
+
+                packageCards.forEach(otherCard => {
+                    const otherToggle = otherCard.querySelector('.package-toggle');
+                    const isCurrent = otherCard === card && !isAlreadyOpen;
+
+                    otherCard.classList.toggle('is-open', isCurrent);
+                    otherToggle.setAttribute('aria-expanded', isCurrent ? 'true' : 'false');
+                });
+            });
         });
 
      </script>

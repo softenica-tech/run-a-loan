@@ -1,9 +1,21 @@
+<?php
+$currentPage = basename($_SERVER['PHP_SELF'] ?? 'index.php');
+$servicePageRoutes = [
+    'integrations.php',
+    'system-scalability.php',
+    'system-management.php',
+    'product-management.php',
+    'business-administration.php',
+    'client-management.php',
+];
+$isFunctionalityPage = in_array($currentPage, $servicePageRoutes, true);
+?>
 <header>
     <div class="container">
         <nav class="navbar navbar-expand-lg "> 
 
             <!-- Logo -->
-            <a class="navbar-brand p-0" href="#">
+            <a class="navbar-brand p-0" href="index.php">
                 <img src="images/logo.svg" alt="Run a Loan">
             </a>
 
@@ -18,37 +30,39 @@
             <!-- Left Links -->
             <ul class="navbar-nav ms-auto">
 
-                <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Product Tour</a> </li>
+                <li class="nav-item"> <a class="nav-link <?php echo $currentPage === 'index.php' ? 'active' : ''; ?>" href="index.php">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link <?php echo $currentPage === 'product-tour.php' ? 'active' : ''; ?>" href="product-tour.php">Product Tour</a> </li>
 
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
                     <a 
-                        class="nav-link dropdown-toggle" 
+                        class="nav-link dropdown-toggle <?php echo $isFunctionalityPage ? 'active' : ''; ?>" 
                         href="#" 
                         role="button" 
                         data-bs-toggle="dropdown"
+                        aria-expanded="false"
                     >
                         Functionality
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Integrations</a></li>
-                        <li><a class="dropdown-item" href="#">System Scalability</a></li>
-                        <li><a class="dropdown-item" href="#">System Management</a></li>
-                        <li><a class="dropdown-item" href="#">Product Management</a></li>
-                        <li><a class="dropdown-item" href="#">Business Administration</a></li> 
+                        <li><a class="dropdown-item <?php echo $currentPage === 'integrations.php' ? 'active' : ''; ?>" href="integrations.php">Integrations</a></li>
+                        <li><a class="dropdown-item <?php echo $currentPage === 'system-scalability.php' ? 'active' : ''; ?>" href="system-scalability.php">System Scalability</a></li>
+                        <li><a class="dropdown-item <?php echo $currentPage === 'system-management.php' ? 'active' : ''; ?>" href="system-management.php">System Management</a></li>
+                        <li><a class="dropdown-item <?php echo $currentPage === 'product-management.php' ? 'active' : ''; ?>" href="product-management.php">Product Management</a></li>
+                        <li><a class="dropdown-item <?php echo $currentPage === 'business-administration.php' ? 'active' : ''; ?>" href="business-administration.php">Business Administration</a></li>
+                        <li><a class="dropdown-item <?php echo $currentPage === 'client-management.php' ? 'active' : ''; ?>" href="client-management.php">Client Management</a></li>
                     </ul>
                 </li>
 
-                <li class="nav-item"> <a class="nav-link" href="#">Faqs</a> </li>
+                <li class="nav-item"> <a class="nav-link <?php echo $currentPage === 'faqs.php' ? 'active' : ''; ?>" href="faqs.php">FAQs</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
 
             </ul>
 
             <!-- Right Button -->
             <div class="d-flex">
-                <a href="#" class="btn btn-site">
+                <a href="request-demo.php" class="btn btn-site">
                     Request a Demo
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
