@@ -3,7 +3,9 @@
         <div class="container">
             <div class="site-footer-top">
                 <div class="site-footer-brand">
-                    <img src="images/footer-logo-main.png" alt="Run A Loan" class="img-fluid">
+                    <a href="/">
+                        <img src="images/footer-logo-main.png" alt="Run A Loan" class="img-fluid">
+                    </a>
                 </div>
 
                 <div class="site-footer-intro">

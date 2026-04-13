@@ -268,80 +268,89 @@
                     <h3>Functionality</h3>
                 </div>
             </div>
-    
-            <div class="functionalit-sider-main">
-                <div class="functionality-card">
-                    <img src="images/f1.png" alt="Run a Loan">  
-                    <div class="functionality-card-text"> 
-                        <h4>Product management</h4>
-                        <p>
-                            RUN-A-LOAN is able to cater for a large range of products, giving you flexibility to tailor your lending offerings.
-                        </p>
-                        <a href="product-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
-                    </div>
-                </div>
 
-                <div class="functionality-card">
-                    <img src="images/f2.png" alt="Run a Loan">  
-                    <div class="functionality-card-text"> 
-                        <h4>Business Administration</h4>
-                        <p>
-                            From chart of accounts management, statements, audit trails to personalised business rules. 
-                        </p>
-                        <a href="business-administration.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+            <div class="functionalit-sider-wrapper position-relative">
+                <button class="testimonial-arrow functionality-arrow-prev" type="button" aria-label="Previous testimonial">
+                    <img src="images/testimonial-arrow.png" alt="" class="img-fluid">
+                </button>
+                <div class="functionalit-sider-main">
+                    <div class="functionality-card">
+                        <img src="images/f1.png" alt="Run a Loan">  
+                        <div class="functionality-card-text"> 
+                            <h4>Product management</h4>
+                            <p>
+                                RUN-A-LOAN is able to cater for a large range of products, giving you flexibility to tailor your lending offerings.
+                            </p>
+                            <a href="product-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="functionality-card">
-                    <img src="images/f3.png" alt="Run a Loan">  
-                    <div class="functionality-card-text"> 
-                        <h4>Client Management</h4>
-                        <p>
-                            The RUN-A-LOAN solution provides a single view of a client, making client management simple and efficient. 
-                        </p>
-                        <a href="client-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                    <div class="functionality-card">
+                        <img src="images/f2.png" alt="Run a Loan">  
+                        <div class="functionality-card-text"> 
+                            <h4>Business Administration</h4>
+                            <p>
+                                From chart of accounts management, statements, audit trails to personalised business rules. 
+                            </p>
+                            <a href="business-administration.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="functionality-card">
-                    <img src="images/f4.png" alt="Run a Loan">  
-                    <div class="functionality-card-text"> 
-                        <h4>System Management</h4>
-                        <p>
-                            Cloud based, fully managed. No need for additional IT staff or equipment, internet access is all that is required. 
-                        </p>
-                        <a href="system-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                    <div class="functionality-card">
+                        <img src="images/f3.png" alt="Run a Loan">  
+                        <div class="functionality-card-text"> 
+                            <h4>Client Management</h4>
+                            <p>
+                                The RUN-A-LOAN solution provides a single view of a client, making client management simple and efficient. 
+                            </p>
+                            <a href="client-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="functionality-card">
-                    <img src="images/f4.png" alt="Run a Loan">  
-                    <div class="functionality-card-text"> 
-                        <h4>Scalability & Sustainability</h4>
-                        <p>
-                            Starting a lending business? Managing a enterprise lending business? RUN-A-LOAN will cater for your requirements. 
-                        </p>
-                        <a href="system-scalability.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                    <div class="functionality-card">
+                        <img src="images/f4.png" alt="Run a Loan">  
+                        <div class="functionality-card-text"> 
+                            <h4>System Management</h4>
+                            <p>
+                                Cloud based, fully managed. No need for additional IT staff or equipment, internet access is all that is required. 
+                            </p>
+                            <a href="system-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="functionality-card">
-                    <img src="images/f4.png" alt="Run a Loan">  
-                    <div class="functionality-card-text"> 
-                        <h4>Integrations</h4>
-                        <p>
-                            Credit bureaus, Payment bureaus, Selfie verification, Bank statement collection and much more. 
-                        </p>
-                        <a href="integrations.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                    <div class="functionality-card">
+                        <img src="images/f4.png" alt="Run a Loan">  
+                        <div class="functionality-card-text"> 
+                            <h4>Scalability & Sustainability</h4>
+                            <p>
+                                Starting a lending business? Managing a enterprise lending business? RUN-A-LOAN will cater for your requirements. 
+                            </p>
+                            <a href="system-scalability.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                        </div>
                     </div>
+
+                    <div class="functionality-card">
+                        <img src="images/f4.png" alt="Run a Loan">  
+                        <div class="functionality-card-text"> 
+                            <h4>Integrations</h4>
+                            <p>
+                                Credit bureaus, Payment bureaus, Selfie verification, Bank statement collection and much more. 
+                            </p>
+                            <a href="integrations.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                        </div>
+                    </div>
+
+                
                 </div>
- 
+                <button class="testimonial-arrow functionality-arrow-next" type="button" aria-label="Next testimonial">
+                    <img src="images/testimonial-arrow.png" alt="" class="img-fluid">
+                </button>
             </div>
 
             <!-- Quick implementation  -->
              <div class="container">
                 <div class="quick-implementation">
-                    <img src="images/quick-implementation.png" />
+                    <img src="images/quick-implementation.png"  class="img-fluid"  />
                     <div class="quick-implementation-text"> 
                         <h2>
                             <strong>Quick</strong> to implement, <br/>
@@ -481,7 +490,7 @@
                                     </div>
 
                                     <a href="request-demo.php" class="btn btn-site package-cta">
-                                        Get a Quote
+                                        Request a demo
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                                 <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
@@ -511,23 +520,30 @@
                                 <div class="package-copy">
                                     <div class="package-copy-grid">
                                         <ul class="package-list">
-                                            <li>Tailored workflow rules for niche lending models</li>
-                                            <li>Custom onboarding and approval journeys</li>
-                                            <li>Dedicated implementation guidance</li>
-                                            <li>Flexible integration options for your ecosystem</li>
+                                            <li>Everything on STANDARD and</li>
+                                            <li>Automated payouts **</li>
+                                            <li>Customised development </li>
+                                            <li>Customised integrations **</li>
+                                            <li>Customised rules **</li>
+                                            <li>Customised portals **</li>
                                         </ul>
 
                                         <div class="package-secondary-copy">
                                             <ul class="package-list">
-                                                <li>Role-based access and audit visibility</li>
-                                                <li>Extended analytics and operational insights</li>
-                                                <li>Priority business-hours support</li>
+                                                <li>Integrated WhatsApp channels **</li>
+                                                <li>Integrated USSD channels **</li>
+                                                <li>Customised support plans</li>
                                             </ul>
+
+                                             <div class="package-notes">
+                                                <p>* where applicable / possible</p>
+                                                <p>** conditions and costs apply</p>
+                                            </div>
                                         </div>
                                     </div>
 
                                     <a href="request-demo.php" class="btn btn-site package-cta">
-                                        Get a Quote
+                                        Request a demo
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                                 <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
@@ -557,23 +573,16 @@
                                 <div class="package-copy">
                                     <div class="package-copy-grid">
                                         <ul class="package-list">
-                                            <li>High-volume processing for large operations</li>
-                                            <li>Advanced compliance and governance controls</li>
-                                            <li>Multi-branch and multi-product configuration</li>
-                                            <li>Deep integration support across core systems</li>
+                                            <li><strong>Everything on UNIQUE </strong> and</li>
+                                            <li><strong>Unlimited</strong> active loans</li>
+                                            <li><strong>Unlimited</strong> options</li> 
                                         </ul>
 
-                                        <div class="package-secondary-copy">
-                                            <ul class="package-list">
-                                                <li>Enhanced uptime, monitoring and resilience options</li>
-                                                <li>Strategic support and solution advisory</li>
-                                                <li>Custom reporting and executive dashboards</li>
-                                            </ul>
-                                        </div>
+                                       
                                     </div>
 
                                     <a href="request-demo.php" class="btn btn-site package-cta">
-                                        Get a Quote
+                                        Request a demo
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                                 <path d="M3.43442 0C3.12087 0 2.82015 0.124563 2.59843 0.346278C2.37672 0.567993 2.25216 0.868715 2.25216 1.18227C2.25216 1.49582 2.37672 1.79654 2.59843 2.01826C2.82015 2.23997 3.12087 2.36454 3.43442 2.36454H13.9645L0.376288 15.9528C0.260126 16.0609 0.166963 16.1916 0.102348 16.3364C0.0377332 16.4815 0.00297474 16.6382 0.000184589 16.7969C-0.00262133 16.9556 0.026588 17.1133 0.0860482 17.2605C0.145508 17.4077 0.234005 17.5414 0.346274 17.6536C0.458542 17.7659 0.592265 17.8545 0.739481 17.9139C0.886697 17.9733 1.04438 18.0026 1.20312 17.9998C1.36186 17.997 1.51842 17.9623 1.66345 17.8977C1.80847 17.833 1.939 17.7399 2.04723 17.6237L15.6355 4.03548V14.5656C15.6355 14.8791 15.76 15.1799 15.9818 15.4015C16.2034 15.6233 16.5042 15.7478 16.8177 15.7478C17.1313 15.7478 17.432 15.6233 17.6537 15.4015C17.8755 15.1799 18 14.8791 18 14.5656V1.18227C17.9992 1.02511 17.9671 0.869708 17.9054 0.725125C17.8197 0.523571 17.6802 0.349399 17.5023 0.221557C17.3244 0.0937139 17.1149 0.0170877 16.8965 0H3.43442Z" fill="#11111C"/>
@@ -673,7 +682,9 @@
         $('.functionalit-sider-main').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
-            arrows: false,
+            prevArrow: $('.functionality-arrow-prev'),
+            nextArrow: $('.functionality-arrow-next'),
+            arrows: true,
             dots: false,
             autoplay: true,
             infinite: true
