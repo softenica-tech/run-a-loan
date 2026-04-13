@@ -56,7 +56,7 @@
                     <p>
                         Check out our options and features included. 
                     </p>
-                    <a href="request-demo.php" class="btn btn-site">
+                    <a href="request-demo.php" class="btn btn-site btn-alt">
                         Request a Demo
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">

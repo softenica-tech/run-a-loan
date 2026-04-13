@@ -31,6 +31,12 @@ header{
             letter-spacing: 1.92px;
             text-transform: uppercase;
 
+            //  &.dropdown:hover{
+            //     & .dropdown-menu{
+            //         display: block;
+            //     }   
+            // }
+
             &::before{
                 content: "";
                 position: absolute;
@@ -45,6 +51,8 @@ header{
                 transform: translateX(-50%);
                 transition: width 0.3s ease-in-out;
             }
+
+           
 
             &:hover{
                 color: $white-text;
@@ -70,6 +78,11 @@ header{
                 color: $black-text;
             }
         }
+    }
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; /* removes jump */
+        left: 0;
     }
 
     .btn-site{

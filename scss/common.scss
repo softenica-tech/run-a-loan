@@ -159,6 +159,38 @@ b, strong {
             }
         }
     }
+
+    &.btn-alt{
+        background-color: $primary-color;
+        color: $black-text;
+        border-color: $black-text;
+
+        & span{
+            background-color: $black-text;
+
+            svg{
+                path{
+                    fill: $primary-color;
+                }
+            }
+        }
+
+        &:hover{
+            background-color: $black-text;
+            color: $primary-color;
+            border-color: $primary-color !important;
+
+            & span{
+                background-color: $primary-color;
+
+                svg{
+                    path{
+                        fill: $black-text;
+                    }
+                }   
+            }
+        }
+    }
 }
 .btn-site-alt{
     background-color: $primary-color;

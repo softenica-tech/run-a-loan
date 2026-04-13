@@ -265,6 +265,28 @@ b, strong {
 .btn-site:hover span svg {
   transform: rotate(45deg);
 }
+.btn-site.btn-alt {
+  background-color: #77D6E3;
+  color: #11111C;
+  border-color: #11111C;
+}
+.btn-site.btn-alt span {
+  background-color: #11111C;
+}
+.btn-site.btn-alt span svg path {
+  fill: #77D6E3;
+}
+.btn-site.btn-alt:hover {
+  background-color: #11111C;
+  color: #77D6E3;
+  border-color: #77D6E3 !important;
+}
+.btn-site.btn-alt:hover span {
+  background-color: #77D6E3;
+}
+.btn-site.btn-alt:hover span svg path {
+  fill: #11111C;
+}
 
 .btn-site-alt {
   background-color: #77D6E3;
@@ -393,6 +415,11 @@ header .nav-item .dropdown-item {
 header .nav-item .dropdown-item.active, header .nav-item .dropdown-item:active {
   background-color: rgba(119, 214, 227, 0.24);
   color: #11111C;
+}
+header .navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* removes jump */
+  left: 0;
 }
 header .btn-site {
   min-width: 185px;
