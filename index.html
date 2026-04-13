@@ -30,8 +30,10 @@
                 </a>
 
                 <!-- Hamburger -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </button>
 
                 <!-- Menu -->
@@ -792,7 +794,7 @@
     <script src="https://unpkg.com/split-type"></script>
  
      <script>      
-        <!-- company stats  -->
+        // <!-- company stats  -->
 
         const section = document.querySelector(".company-stats-section");
         const counters = document.querySelectorAll(".company-stats-card h4 span");
@@ -837,9 +839,9 @@
 
         window.addEventListener("scroll", handleScroll);
         window.addEventListener("load", handleScroll);
-        <!-- company stats  -->
+        // <!-- company stats  -->
 
-        <!-- company list show on hover  -->
+        // <!-- company list show on hover  -->
         const items = document.querySelectorAll(".company-support-list");
         items[0].classList.add("active");
 
@@ -853,9 +855,43 @@
                 item.classList.add("active");
             });
         });
-        <!-- company list show on hover  -->
+        // <!-- company list show on hover  -->
 
-        <!-- functionality slider  -->
+        // upgrade offers 
+        function initMobileSlider() {
+            const $slider = $('.service-offer-main');
+
+            if ($(window).width() < 768) {
+                // 👉 Initialize only if NOT already initialized
+                if (!$slider.hasClass('slick-initialized')) {
+                    $slider.slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots: false,
+                        autoplay: true,
+                        infinite: true
+                    });
+                }
+                } else {
+                    // 👉 Destroy on desktop
+                    if ($slider.hasClass('slick-initialized')) {
+                    $slider.slick('unslick');
+                    }
+                }
+            }
+
+            // Run on load
+            $(document).ready(function () {
+                initMobileSlider();
+            });
+
+            // Run on resize
+            $(window).on('resize', function () {
+             initMobileSlider();
+            });
+
+        // <!-- functionality slider  -->
         $('.functionalit-sider-main').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -864,11 +900,19 @@
             arrows: true,
             dots: false,
             autoplay: true,
-            infinite: true
+            infinite: true,
+            responsive: [ 
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
-        <!-- functionality slider  -->
+        // <!-- functionality slider  -->
 
-        <!-- testimonial slider  -->
+        // <!-- testimonial slider  -->
          
          $('.testimonial-main').slick({
             slidesToShow: 3,

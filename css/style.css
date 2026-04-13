@@ -1548,6 +1548,52 @@ header .btn-site span svg {
   transition: opacity 0.3s ease-in-out;
 }
 
+.navbar-toggler {
+  width: 32px;
+  height: 24px;
+  position: relative;
+  background: none;
+  border: none;
+}
+
+.navbar-toggler span {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  transition: all 0.35s ease;
+  background-color: #77D6E3;
+}
+
+.navbar-toggler.collapsed span:nth-child(1) {
+  top: 0;
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed span:nth-child(2) {
+  top: 10px;
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed span:nth-child(3) {
+  top: 20px;
+  transform: rotate(0);
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.navbar-toggler span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+
 @media (max-width: 1199px) {
   .package-toggle {
     padding-left: 36px;
@@ -1580,6 +1626,31 @@ header .btn-site span svg {
   }
   .package-media img {
     max-height: 420px;
+  }
+  .nav-item {
+    padding: 0 0 !important;
+    padding-bottom: 20px !important;
+  }
+  .navbar-collapse .navbar-nav {
+    padding: 40px 0;
+  }
+  header .btn-site {
+    width: 210px;
+    height: 42px;
+    margin-left: 0;
+    min-width: 140px;
+  }
+  header .btn-site span {
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    right: -20px;
+  }
+  header .btn-site span svg {
+    width: 10px;
+  }
+  header .nav-item .nav-link.active::before, header .nav-item .nav-link:focus::before {
+    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -1655,19 +1726,19 @@ header .btn-site span svg {
     font-size: 17px;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .btn-site {
     min-width: 220px;
     height: 50px;
   }
   .btn-site span {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     top: 15px;
-    right: -28px;
+    right: -20px;
   }
   .btn-site svg {
-    width: 15px;
+    width: 10px;
   }
   .hero-banner-main {
     padding: 150px 0 0;
@@ -1699,6 +1770,117 @@ header .btn-site span svg {
   }
   .centeral-text-main {
     padding: 235px 0 82px;
+  }
+  .service-offering-section .section-heading {
+    padding-left: 0;
+  }
+  .section-heading h3 {
+    font-size: 26px;
+  }
+  .service-offering-section {
+    padding: 60px 25px;
+  }
+  .company-stats-main {
+    flex-flow: column wrap;
+  }
+  .company-stats-section {
+    padding: 60px 0 30px;
+  }
+  .company-stats-card {
+    margin-bottom: 50px;
+  }
+  .company-stats-card h4 {
+    margin: 0 0 10px;
+    font-size: 50px;
+  }
+  .company-support-section {
+    padding: 60px 0;
+  }
+  .company-support-section .section-heading h3 {
+    line-height: 40px;
+  }
+  .company-support-list-info {
+    width: 100%;
+  }
+  .company-support-list-img {
+    display: none;
+  }
+  .company-support-list-info h4 {
+    font-size: 20px;
+  }
+  .functionality-section {
+    padding: 60px 0;
+  }
+  .functionalit-sider-main .slick-list {
+    padding-right: 50px;
+  }
+  .testimonial-arrow {
+    display: none !important;
+  }
+  .functionality-card-text h4 {
+    font-size: 16px;
+  }
+  .quick-implementation {
+    margin: 60px 0 0;
+  }
+  .quick-implementation p {
+    font-size: 16px;
+  }
+  .testimonial-section {
+    padding: 60px 0 60px;
+    margin-top: 0;
+  }
+  .quick-implementation img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .quick-implementation-text {
+    padding: 15px 15px;
+  }
+  .quick-implementation-text h2 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .testimonial-slider-shell {
+    padding: 0 0 0;
+  }
+  .package-card.is-open .package-media {
+    display: none;
+  }
+  .package-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    right: 20px;
+    top: 42px;
+  }
+  .package-icon .package-icon img {
+    width: 15px;
+    height: 15px;
+  }
+  .package-card {
+    padding: 15px 15px 15px 15px;
+  }
+  .package-toggle {
+    padding: 22px 0 22px 0px;
+  }
+  .package-panel-content {
+    padding: 0 0 0;
+    overflow: hidden;
+  }
+  .package-card.is-open .package-panel-content {
+    min-height: auto;
+  }
+  .site-footer-intro {
+    width: 100%;
+  }
+  .site-footer-column {
+    margin-bottom: 30px;
+  }
+  .site-footer-bottom-inner {
+    align-items: center;
+    gap: 10px;
   }
 }
 .product-tour-page {
