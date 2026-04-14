@@ -353,7 +353,7 @@
                     <div class="quick-implementation-text"> 
                         <h2>
                             <strong>Quick</strong> to implement, <br/>
-                            <strong>Quick</strong>to learn and use.
+                            <strong>Quick</strong> to learn and use.
                         </h2>
                         <p>
                             The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.
@@ -418,23 +418,15 @@
 
                         <div class="testimonial-cards">
                             <img src="images/quotes.svg" alt="" class="testimonial-quote img-fluid" />
-                            <h5>Ms L. Daniels</h5>
+                            <h5>Mrs F. Malomo</h5>
                             <span>Operations Manager</span>
                             <div class="service-border"></div>
                             <p>
-                                RUN-A-LOAN gave our team structure, visibility and far faster turnaround times. The onboarding flow feels effortless for staff and customers alike.
+                                The nicest system we have worked on, our team love it, we have no regrets. The support team must be the most patient and helpful I have ever dealt with.
                             </p>
                         </div>
 
-                        <div class="testimonial-cards">
-                            <img src="images/quotes.svg" alt="" class="testimonial-quote img-fluid" />
-                            <h5>Mr P. Naidoo</h5>
-                            <span>Finance Director</span>
-                            <div class="service-border"></div>
-                            <p>
-                                Reporting, collections and automation all improved at once. It is rare to find a platform that is this configurable while still being simple for teams to adopt.
-                            </p>
-                        </div>
+                        
                     </div>
 
                     <button class="testimonial-arrow testimonial-arrow-next" type="button" aria-label="Next testimonial">
@@ -470,7 +462,8 @@
                                             <li>Integration to credit bureaus *</li>
                                             <li>Automated collections *</li>
                                             <li><strong>Customised</strong> documents &amp; reports</li>
-                                            <li><strong>24/7</strong> Critical system support</li>
+                                            <li><strong>Customised</strong> documents &amp; reports</li>
+                                            <li><strong>Customer</strong> web application <strong>portal</strong> **</li>
                                             <li><strong>24/7</strong> System monitoring</li>
                                         </ul>
 
@@ -521,7 +514,7 @@
                                         <ul class="package-list">
                                             <li>Everything on STANDARD and</li>
                                             <li>Automated payouts **</li>
-                                            <li>Customised development </li>
+                                            <li>Customised development **</li>
                                             <li>Customised integrations **</li>
                                             <li>Customised rules **</li>
                                             <li>Customised portals **</li>
@@ -743,7 +736,7 @@
             nextArrow: $('.testimonial-arrow-next'),
             arrows: true,
             dots: false,
-            autoplay: false,
+            autoplay: true,
             infinite: true,
             responsive: [
                 {

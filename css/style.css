@@ -355,7 +355,7 @@ header {
   padding: 15px 30px;
   position: fixed;
   top: 0;
-  z-index: 9;
+  z-index: 99;
 }
 header .container {
   max-width: 1384px;
@@ -416,6 +416,9 @@ header .nav-item .dropdown-item {
 header .nav-item .dropdown-item.active, header .nav-item .dropdown-item:active {
   background-color: rgba(119, 214, 227, 0.24);
   color: #11111C;
+}
+header .nav-item .dropdown-item:hover, header .nav-item .dropdown-item.active {
+  background-color: #77D6E3;
 }
 @media screen and (min-width: 992px) {
   header .navbar .dropdown:hover .dropdown-menu {
@@ -1183,6 +1186,10 @@ header .btn-site span svg {
   position: absolute;
   bottom: -10px;
   left: 0;
+  transition: 0.3s;
+}
+.functionality-card-text a:hover span {
+  transform: translateX(4px);
 }
 
 .quick-implementation {
@@ -1495,13 +1502,13 @@ header .btn-site span svg {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  gap: 50px;
+  gap: 40px;
 }
 
 .package-copy {
   flex: 1 1 auto;
   padding: 18px 0 0;
-  max-width: 56%;
+  max-width: 60%;
 }
 
 .package-copy-grid {
@@ -1904,6 +1911,7 @@ header .btn-site span svg {
   .site-footer-bottom-inner {
     align-items: center;
     gap: 10px;
+    text-align: center;
   }
 }
 .product-tour-page {
@@ -1973,13 +1981,15 @@ header .btn-site span svg {
 
 .product-tour-cards {
   background-color: #f4f3fb;
-  padding: 98px 0 92px;
+  padding: 98px 49px 92px;
 }
 
 .product-tour-card-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 26px;
+  max-width: 1358px;
+  margin: 0 auto;
 }
 
 .product-tour-card {
@@ -2009,7 +2019,7 @@ header .btn-site span svg {
   position: relative;
   z-index: 1;
   height: 100%;
-  padding: 34px 20px 28px;
+  padding: 54px 20px 34px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -2017,16 +2027,16 @@ header .btn-site span svg {
 }
 
 .product-tour-card-icon {
-  position: absolute;
+  position: static;
   top: 34px;
   left: 20px;
-  width: 36px;
-  height: 36px;
+  height: 40px;
+  margin: 0 0 20px;
 }
 
 .product-tour-card-line {
   width: 2px;
-  height: 132px;
+  height: 220px;
   background: linear-gradient(180deg, #f5f5fc 0%, transparent 100%);
   margin-bottom: auto;
   opacity: 0.9;
@@ -2039,7 +2049,7 @@ header .btn-site span svg {
   line-height: 1.05;
   color: #F5F5FC;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .product-tour-card-tag {

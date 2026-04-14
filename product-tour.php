@@ -42,7 +42,7 @@
         </section>
 
         <section class="product-tour-cards">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="product-tour-card-grid">
                     <article class="product-tour-card">
                         <img src="images/product-tour/Rectangle 16.png" alt="Customer support" class="product-tour-card-bg img-fluid">

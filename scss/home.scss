@@ -424,6 +424,13 @@
             position: absolute;
             bottom: -10px;
             left: 0;
+            transition: 0.3s;
+        }
+
+        &:hover{
+            & span{
+                transform: translateX(4px);
+            }
         }
     }
 }
@@ -764,12 +771,12 @@
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    gap: 50px; 
+    gap: 40px; 
 }
 .package-copy{
     flex: 1 1 auto;
     padding: 18px 0 0;
-    max-width: 56%;
+    max-width: 60%;
 }
 .package-copy-grid{
     display: grid;
@@ -1182,5 +1189,6 @@
     .site-footer-bottom-inner{
         align-items: center;
         gap: 10px;
+        text-align: center;
     }
 }

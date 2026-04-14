@@ -3,7 +3,7 @@ header{
     padding: 15px 30px; 
     position: fixed;
     top: 0;
-    z-index: 9;
+    z-index: 99;
 
     .container{
         max-width: 1384px;
@@ -77,6 +77,10 @@ header{
             &:active{
                 background-color: rgba(119, 214, 227, 0.24);
                 color: $black-text;
+            }
+
+            &:hover, &.active{
+                background-color: $primary-color;
             }
         }
     }

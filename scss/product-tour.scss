@@ -63,12 +63,14 @@
 }
 .product-tour-cards{
     background-color: #f4f3fb;
-    padding: 98px 0 92px;
+    padding: 98px 49px 92px;
 }
 .product-tour-card-grid{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 26px;
+    max-width: 1358px;
+    margin: 0 auto;
 }
 .product-tour-card{
     position: relative;
@@ -93,22 +95,23 @@
     position: relative;
     z-index: 1;
     height: 100%;
-    padding: 34px 20px 28px;
+    padding: 54px 20px 34px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
 }
 .product-tour-card-icon{
-    position: absolute;
+    position: static;
     top: 34px;
     left: 20px;
-    width: 36px;
-    height: 36px;
+    // width: 36px;
+    height: 40px;
+    margin: 0 0 20px;
 }
 .product-tour-card-line{
     width: 2px;
-    height: 132px;
+    height: 220px;
     background: linear-gradient(180deg, #f5f5fc 0%, transparent 100%);
     margin-bottom: auto;
     opacity: 0.9;
@@ -121,7 +124,7 @@
         line-height: 1.05;
         color: $white-text;
         text-transform: uppercase;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
     }
 }
 .product-tour-card-tag{

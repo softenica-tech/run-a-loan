@@ -63,13 +63,13 @@
                     </ul>
 
                     <div class="site-footer-socials">
-                        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/company/calidad-technology" target="_blank" aria-label="LinkedIn">
                             <img src="images/footer-linkedin.svg" alt="" class="img-fluid">
                         </a>
-                        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                        <a href="https://www.facebook.com/runaloan" target="_blank" aria-label="Facebook">
                             <img src="images/footer-facebook.svg" alt="" class="img-fluid">
                         </a>
-                        <a href="https://x.com/" target="_blank" aria-label="X">
+                        <a href="https://x.com/runaloan" target="_blank" aria-label="X">
                             <img src="images/footer-x.svg" alt="" class="img-fluid">
                         </a>
                     </div>
