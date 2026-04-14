@@ -20,8 +20,10 @@ $isFunctionalityPage = in_array($currentPage, $servicePageRoutes, true);
             </a>
 
             <!-- Hamburger -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
 
             <!-- Menu -->
@@ -56,7 +58,7 @@ $isFunctionalityPage = in_array($currentPage, $servicePageRoutes, true);
                 </li>
 
                 <li class="nav-item"> <a class="nav-link <?php echo $currentPage === 'faqs.php' ? 'active' : ''; ?>" href="faqs.php">FAQs</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+                <li class="nav-item"> <a class="nav-link <?php echo $currentPage === 'request-demo.php' ? 'active' : ''; ?>" href="request-demo.php">Contact</a> </li>
 
             </ul>
 
