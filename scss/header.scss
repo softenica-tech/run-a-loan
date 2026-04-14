@@ -71,6 +71,7 @@ header{
         }
         .dropdown-item{
             color: $black-text;
+            text-transform: uppercase;
 
             &.active,
             &:active{
@@ -79,10 +80,12 @@ header{
             }
         }
     }
-    .navbar .dropdown:hover .dropdown-menu {
-        display: block;
-        margin-top: 0; /* removes jump */
-        left: 0;
+    @media screen and (min-width: 992px) {
+        .navbar .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0; /* removes jump */
+            left: 0;
+        }
     }
 
     .btn-site{
@@ -123,7 +126,27 @@ header{
         font-size: 14px;
     }
 }
-@media (max-width: 575px) {
+@media (max-width: 1200px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+    header .btn-site {
+        min-width: 150px;
+        height: 48px;
+        margin-left: 10px;
+        margin-right: 25px;
+        width: 168px;
+        font-size: 14px;
+        padding: 10px 23px 10px 15px;
+    }
+    header .nav-item {
+        padding: 0 10px;
+    }
+    header .navbar {
+        padding: 15px 20px;
+    }
+}
+@media (max-width: 991px) {
     header .container {
         padding: 0 20px;
     }
