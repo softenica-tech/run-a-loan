@@ -939,6 +939,7 @@ header .btn-site span svg {
   font-family: "Mona Sans", sans-serif;
   font-size: 24px;
   font-weight: 500;
+  text-transform: uppercase;
   line-height: normal;
   color: #F5F5FC;
   margin: 20px 0 10px;
@@ -3120,7 +3121,7 @@ header .btn-site span svg {
 
 .service-detail-cta-inner {
   position: relative;
-  min-height: 520px;
+  min-height: 450px;
   border-radius: 28px;
   overflow: hidden;
   display: flex;
@@ -3153,9 +3154,9 @@ header .btn-site span svg {
 }
 .service-detail-cta-content h2 {
   font-family: "Mona Sans", sans-serif;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 500;
-  line-height: 1.05;
+  line-height: 65px;
   color: #F5F5FC;
   text-transform: uppercase;
   margin-bottom: 20px;

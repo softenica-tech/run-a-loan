@@ -304,7 +304,7 @@
 }
 .service-detail-cta-inner{
     position: relative;
-    min-height: 520px;
+    min-height: 450px;
     border-radius: 28px;
     overflow: hidden;
     display: flex;
@@ -333,9 +333,9 @@
 
     h2{
         font-family: $font-heading;
-        font-size: 60px;
+        font-size: 48px;
         font-weight: 500;
-        line-height: 1.05;
+        line-height: 65px;
         color: $white-text;
         text-transform: uppercase;
         margin-bottom: 20px;
