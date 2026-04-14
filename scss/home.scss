@@ -62,7 +62,7 @@
 .centeral-text-main{
     background-color: #E6FCFF;
     margin-top: -266px;
-    padding: 266px 0 82px;
+    padding: 266px 0 80px;
 }
 .centeral-text{
     max-width: 1040px;
@@ -123,7 +123,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 25px;
+    padding: 80px 25px;
 
     .section-heading{
         max-width: 1430px;
@@ -147,9 +147,9 @@
     padding: 55px 35px 30px ;
     border-radius: 20px;
     background: #61b5c0;
-    background: linear-gradient(-100deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
-    background: -webkit-linear-gradient(-100deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
-    background: -moz-linear-gradient(-100deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+    background: linear-gradient(-40deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+    background: -webkit-linear-gradient(-40deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+    background: -moz-linear-gradient(-40deg,rgba(97, 181, 192, 0.6) 0%, transparent 100%);
     overflow: hidden;
 
      &:hover{
@@ -242,7 +242,7 @@
 // company stats 
 // company support list 
 .company-support-section{
-    padding: 100px 0;
+    padding: 80px 0;
     background: #2f5565;
     // background: linear-gradient(179deg, rgba(47, 85, 101, 0.2) 0%, #172e37 100%);
     // background: -webkit-linear-gradient(179deg, rgba(47, 85, 101, 0.2) 0%, #172e37 100%);
@@ -330,7 +330,7 @@
 
 // functionality 
 .functionality-section{
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .functionalit-sider-main{
     padding-left: calc((100vw - 1264px) / 2);
@@ -512,6 +512,14 @@
         height: 100%;
         display: block;
         border-radius: 16px;
+        border: 1px solid $primary-color;
+        transition: 0.3s;
+    }
+
+    &:hover, &:focus{
+        img{
+            border: 1px solid $black-text;
+        }
     }
 
     &.testimonial-arrow-prev{
@@ -661,7 +669,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 108px 0 112px;
+    padding: 80px 0 80px;
 
     .section-heading{
         margin-bottom: 34px;
@@ -1125,7 +1133,7 @@
         display: none !important;
     }
     .functionality-card-text h4 {
-        font-size: 16px;
+        font-size: 20px;
     }
     .quick-implementation{
         margin: 60px 0 0; 
@@ -1191,5 +1199,14 @@
         align-items: center;
         gap: 10px;
         text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    p{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    li{
+        font-size: 16px !important; 
     }
 }

@@ -503,7 +503,7 @@ header .btn-site span svg {
 
 .site-footer-main {
   background-color: #e6fcff;
-  padding: 100px 0 0;
+  padding: 80px 0 0;
   overflow: hidden;
 }
 
@@ -847,7 +847,7 @@ header .btn-site span svg {
 .centeral-text-main {
   background-color: #E6FCFF;
   margin-top: -266px;
-  padding: 266px 0 82px;
+  padding: 266px 0 80px;
 }
 
 .centeral-text {
@@ -902,7 +902,7 @@ header .btn-site span svg {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 100px 25px;
+  padding: 80px 25px;
 }
 .service-offering-section .section-heading {
   max-width: 1430px;
@@ -927,9 +927,9 @@ header .btn-site span svg {
   padding: 55px 35px 30px;
   border-radius: 20px;
   background: #61b5c0;
-  background: linear-gradient(-100deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
-  background: -webkit-linear-gradient(-100deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
-  background: -moz-linear-gradient(-100deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+  background: linear-gradient(-40deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+  background: -webkit-linear-gradient(-40deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+  background: -moz-linear-gradient(-40deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
   overflow: hidden;
 }
 .service-offer-card:hover .overlay-img {
@@ -1017,7 +1017,7 @@ header .btn-site span svg {
 }
 
 .company-support-section {
-  padding: 100px 0;
+  padding: 80px 0;
   background: #2f5565;
 }
 .company-support-section .section-heading h3 {
@@ -1095,7 +1095,7 @@ header .btn-site span svg {
 }
 
 .functionality-section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 .functionalit-sider-main {
@@ -1264,6 +1264,11 @@ header .btn-site span svg {
   height: 100%;
   display: block;
   border-radius: 16px;
+  border: 1px solid #77D6E3;
+  transition: 0.3s;
+}
+.testimonial-arrow:hover img, .testimonial-arrow:focus img {
+  border: 1px solid #11111C;
 }
 .testimonial-arrow.testimonial-arrow-prev {
   left: -91px;
@@ -1394,7 +1399,7 @@ header .btn-site span svg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 108px 0 112px;
+  padding: 80px 0 80px;
 }
 .packages-section .section-heading {
   margin-bottom: 34px;
@@ -1849,7 +1854,7 @@ header .btn-site span svg {
     display: none !important;
   }
   .functionality-card-text h4 {
-    font-size: 16px;
+    font-size: 20px;
   }
   .quick-implementation {
     margin: 60px 0 0;
@@ -1913,6 +1918,15 @@ header .btn-site span svg {
     align-items: center;
     gap: 10px;
     text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  li {
+    font-size: 16px !important;
   }
 }
 .product-tour-page {
