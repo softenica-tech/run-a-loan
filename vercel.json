@@ -2,6 +2,15 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/", "destination": "index.html" }
+    { "source": "/", "destination": "index.html" },
+    { "source": "/business-administration", "destination": "business-administration.html" },
+    { "source": "/client-management", "destination": "client-management.html" },
+    { "source": "/faqs", "destination": "faqs.html" },
+    { "source": "/integrations", "destination": "integrations.html" }, 
+    { "source": "/product-management", "destination": "product-management.html" },
+    { "source": "/product-tour", "destination": "product-tour.html" },
+    { "source": "/request-demo", "destination": "request-demo.html" },
+    { "source": "/system-management", "destination": "system-management.html" },
+    { "source": "/system-scalability", "destination": "system-scalability.html" }
   ]
 }
