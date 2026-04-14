@@ -3,7 +3,7 @@
         <div class="container">
             <div class="site-footer-top">
                 <div class="site-footer-brand">
-                    <a href="/">
+                    <a href="index.php">
                         <img src="images/footer-logo-main.png" alt="Run A Loan" class="img-fluid">
                     </a>
                 </div>
@@ -23,7 +23,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="product-tour.php">Product Tour</a></li>
                         <li><a href="faqs.php">FAQs</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="request-demo.php">Contact</a></li>
                     </ul>
                 </div>
 
