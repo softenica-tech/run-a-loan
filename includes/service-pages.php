@@ -55,7 +55,7 @@ $servicePages = [
         ],
         'cta' => [
             'title' => 'Quick To Implement, Quick To Learn And Use.',
-            'copy' => 'The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.',
+            'copy' => '',
         ],
     ],
     'system-scalability.php' => [
@@ -72,7 +72,7 @@ $servicePages = [
                 'type' => 'intro',
                 'heading' => 'Providing Peace Of Mind For Future Growth',
                 'paragraphs' => [
-                    'As your business <span>grows</span>, the last thing you need is to be concerned about whether your software platform can grow with you.',
+                    'RUN-A-LOAN is highly configurable and when your business <span> grows</span>, the system will be able to keep pace and adjust itself to your requirements.',
                     'RUN-A-LOAN has been developed with scale in mind, giving lenders the confidence to expand volumes, product ranges and channels without needing to re-platform later.',
                 ],
             ],
@@ -83,29 +83,29 @@ $servicePages = [
                     [
                         'title' => 'Integrations',
                         'icon' => 'images/services/system-scalability/Integrations.svg',
-                        'copy' => 'Connect to the third-party systems you need today, while keeping the flexibility to add more as your operation evolves.',
+                        'copy' => 'Extensive integration options e.g. bureaus, financial, regulatory etc',
                     ],
                     [
                         'title' => 'Business Rules',
                         'icon' => 'images/services/system-scalability/Business Rules.svg',
-                        'copy' => 'Support changing credit policies, underwriting requirements and operational controls without rebuilding the platform.',
+                        'copy' => 'Completely configurable business rules.',
                     ],
                     [
                         'title' => 'Workflows',
                         'icon' => 'images/services/system-scalability/Workflows.svg',
-                        'copy' => 'Configure workflows that suit your business processes and continue adapting them as your teams and products mature.',
+                        'copy' => 'Additional and customised work flows.',
                     ],
                     [
                         'title' => 'Interface',
                         'icon' => 'images/services/system-scalability/Interface.svg',
-                        'copy' => 'A clean interface helps new users get productive quickly while remaining powerful enough for complex lending operations.',
+                        'copy' => 'Customised interfaces - make it look the way you want.',
                     ],
                 ],
             ],
         ],
         'cta' => [
             'title' => 'Quick To Implement, Quick To Learn And Use.',
-            'copy' => 'The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.',
+            'copy' => '',
         ],
     ],
     'system-management.php' => [
@@ -122,7 +122,7 @@ $servicePages = [
                 'type' => 'intro',
                 'heading' => 'Cloud Based And Fully Managed',
                 'paragraphs' => [
-                    'RUN-A-LOAN is cloud based and fully managed, allowing your team to <span>concentrate</span> on lending operations while the platform, hosting and continuity services are taken care of.',
+                    'You <span>concentrate</span> on your business whilst we concentrate on everything else.',
                 ],
             ],
             [
@@ -132,22 +132,22 @@ $servicePages = [
                     [
                         'title' => 'Hosting',
                         'icon' => 'images/services/system-management/Hosting.svg',
-                        'copy' => 'Secure, professionally managed cloud hosting that keeps your lending platform online and accessible.',
+                        'copy' => 'The system hosted by us, no need for additional equipment on your side.',
                     ],
                     [
                         'title' => 'Backups',
                         'icon' => 'images/services/system-management/Backups.svg',
-                        'copy' => 'Regular backups are managed as part of the service to help protect business continuity and operational resilience.',
+                        'copy' => 'We also take care of the backups in case of unforseen circumstances.',
                     ],
                     [
                         'title' => 'Technical Support',
                         'icon' => 'images/services/system-management/Technical Support.svg',
-                        'copy' => 'Office-hours and critical support options are available so your team has expert help when it is needed most.',
+                        'copy' => 'We pride ourselves on the excellent support we provide to our clients.',
                     ],
                     [
                         'title' => 'Disaster Recovery',
-                        'icon' => 'images/services/system-management/Line 5.svg',
-                        'copy' => 'Disaster recovery planning helps ensure your operation can recover quickly and continue serving customers.',
+                        'icon' => 'images/services/system-management/disaster.svg',
+                        'copy' => 'A full DR site is included, in case of a critical hardware failure.',
                     ],
                 ],
             ],
@@ -159,14 +159,14 @@ $servicePages = [
                     'Reduced costs',
                     'Unlimited Scalability',
                     'Free Functionality Upgrades',
-                    'Ease of use',
+                    'Easy of use',
                     'Available online from anywhere',
                 ],
             ],
         ],
         'cta' => [
             'title' => 'Quick To Implement, Quick To Learn And Use.',
-            'copy' => 'The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.',
+            'copy' => '',
         ],
     ],
     'product-management.php' => [
@@ -183,7 +183,7 @@ $servicePages = [
                 'type' => 'intro',
                 'heading' => 'Customisation And Setup',
                 'paragraphs' => [
-                    'Setup is <span>quick</span>, while still giving lenders the depth they need to configure products that match their business model and customer base.',
+                    'The flexibility of the product setup in RUN-A-LOAN will allow you <span>quick</span> routes to market with new products and offerings.',
                 ],
             ],
             [
@@ -193,49 +193,49 @@ $servicePages = [
                     [
                         'title' => 'Availability',
                         'icon' => 'images/services/product-management/Availability.svg',
-                        'copy' => 'Define when products are active and how they are exposed across your different channels.',
+                        'copy' => 'You can set the start and end date controlling when the product is available for users to select.',
                     ],
                     [
                         'title' => 'Loan Term',
                         'icon' => 'images/services/product-management/Loan Term.svg',
-                        'copy' => 'Configure repayment periods that fit different customer segments and lending strategies.',
+                        'copy' => 'You can set the default, minimum and maximum number of repayments.',
                     ],
                     [
                         'title' => 'Loan Amount',
                         'icon' => 'images/services/product-management/Loan Amount.svg',
-                        'copy' => 'Set product-specific minimum and maximum limits with the flexibility to tailor ranges where needed.',
+                        'copy' => 'You can set the default, minimum and maximum loan amounts.',
                     ],
                     [
                         'title' => 'Interest Rates',
                         'icon' => 'images/services/product-management/Interest Rates.svg',
-                        'copy' => 'Support different pricing models and rate structures across multiple products and customer groups.',
+                        'copy' => 'You are also able to set the minimum and maximum annual interest rate.',
                     ],
                     [
                         'title' => 'Repayment Frequency',
                         'icon' => 'images/services/product-management/Repayment Frequency.svg',
-                        'copy' => 'Offer schedules that align with salary cycles, customer preferences and operational requirements.',
+                        'copy' => 'You can set the frequency of repayments e.g. daily, weekly, bi-weekly, monthly, quarterly, bi-annually or annually etc',
                     ],
                     [
                         'title' => 'Interest Calculations',
                         'icon' => 'images/services/product-management/Interest Calculations.svg',
-                        'copy' => 'Apply the calculation methods required for your portfolio while keeping your setup easy to manage.',
+                        'copy' => 'You can set the days in month for interest calculations (i.e. 30 days or actual) as well as the days in year (i.e. 360, 364, 365 or actual)',
                     ],
                     [
                         'title' => 'Standard Loan Charges',
                         'icon' => 'images/services/product-management/Standard Loan Charges.svg',
-                        'copy' => 'Create standard fees and charges for each product so pricing stays consistent and controlled.',
+                        'copy' => 'These include financed, monthly and once off charges, where you can set the calculation formula and various thresholds.',
                     ],
                     [
                         'title' => 'Charge Flexibility',
                         'icon' => 'images/services/product-management/Charge Flexibility.svg',
-                        'copy' => 'Adjust fees where necessary to support bespoke products, campaigns or special lending scenarios.',
+                        'copy' => 'Most charges can have an attached term (seperate from the loan term). They can also be calculated or fixed charges.',
                     ],
                 ],
             ],
         ],
         'cta' => [
             'title' => 'The Flexibility Is Outstanding. You Need To See It To Believe It.',
-            'copy' => 'RUN-A-LOAN gives lenders a highly configurable product engine without sacrificing ease of use for day-to-day teams.',
+            'copy' => '',
         ],
     ],
     'business-administration.php' => [
@@ -252,7 +252,7 @@ $servicePages = [
                 'type' => 'intro',
                 'heading' => 'Business Rules And Administration',
                 'paragraphs' => [
-                    'Administration is kept <span>simple</span>, while still giving management teams the controls they need to run complex and compliant lending operations.',
+                    'The customisation options available in RUN-A-LOAN will make your administrative functions <span>simple</span> and efficient.',
                 ],
             ],
             [
@@ -263,27 +263,36 @@ $servicePages = [
                         'title' => 'Application Rules',
                         'icon' => 'images/services/business-administration/Application Rules.svg',
                         'items' => [
-                            'Maintain decisioning and processing rules in line with your operating model',
-                            'Tailor workflows, validations and controls to specific products or channels',
-                            'Support consistent execution across teams and branches',
+                            'Minimum and maximum age',
+                            'Maximum number of loans per customer',
+                            'Minimum employment period required',
+                            'Affordability calculations',
+                            'Settlement options',
+                            'And more...',
                         ],
                     ],
                     [
                         'title' => 'Financials',
                         'icon' => 'images/services/business-administration/Financials.svg',
                         'items' => [
-                            'Manage financial settings and supporting administration from one central platform',
-                            'Keep pricing and repayment structures aligned with approved business rules',
-                            'Improve visibility and control over your lending book',
+                            'Audit trails',
+                            'Chart of accounts management',
+                            'Cash / accrual accounting',
+                            'Statements',
+                            'Payment type definitions',
+                            'And more...',
                         ],
                     ],
                     [
                         'title' => 'Reporting',
                         'icon' => 'images/services/business-administration/Reporting.svg',
                         'items' => [
-                            'Access operational and management reporting to monitor performance',
-                            'Support oversight with structured data and clear activity tracking',
-                            'Make informed business decisions with timely reporting outputs',
+                            'Standard reports',
+                            'Customised reporting',
+                            'Reporting category definitions',
+                            'Financial reporting packs',
+                            'Data submission to regulatory bodies',
+                            'And more...',
                         ],
                         'full' => true,
                     ],
@@ -292,7 +301,7 @@ $servicePages = [
         ],
         'cta' => [
             'title' => 'Quick To Implement, Quick To Learn And Use.',
-            'copy' => 'The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.',
+            'copy' => '',
         ],
     ],
     'client-management.php' => [
@@ -353,7 +362,7 @@ $servicePages = [
         ],
         'cta' => [
             'title' => 'Run-A-Loan Has Everything You Need For A Dynamic, Efficient Lending Business.',
-            'copy' => 'An Advanced Loan Management System, at an Affordable price.',
+            'copy' => '',
         ],
     ],
 ];
