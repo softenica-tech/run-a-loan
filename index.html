@@ -546,11 +546,11 @@
                                             <li><strong>Customised</strong> documents &amp; reports</li>
                                             <li><strong>Customised</strong> documents &amp; reports</li>
                                             <li><strong>Customer</strong> web application <strong>portal</strong> **</li>
-                                            <li><strong>24/7</strong> System monitoring</li>
                                         </ul>
-
+                                        
                                         <div class="package-secondary-copy">
                                             <ul class="package-list">
+                                                <li><strong>24/7</strong> System monitoring</li>
                                                 <li>Office hours business support</li>
                                                 <li><strong>Fully</strong> managed and hosted</li>
                                                 <li>DR recovery site</li>
@@ -856,7 +856,7 @@
         function initMobileSlider() {
             const $slider = $('.service-offer-main');
 
-            if ($(window).width() < 768) {
+            if ($(window).width() < 991) {
                 // 👉 Initialize only if NOT already initialized
                 if (!$slider.hasClass('slick-initialized')) {
                     $slider.slick({
@@ -865,7 +865,21 @@
                         arrows: false,
                         dots: false,
                         autoplay: true,
-                        infinite: true
+                        infinite: true,
+                         responsive: [ 
+                            {
+                                breakpoint: 991,
+                                settings: {
+                                    slidesToShow: 2
+                                }
+                            },
+                            {
+                                breakpoint: 575,
+                                settings: {
+                                    slidesToShow: 1
+                                }
+                            }
+                        ]
                     });
                 }
                 } else {
@@ -897,6 +911,12 @@
             autoplay: true,
             infinite: true,
             responsive: [ 
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
                 {
                     breakpoint: 768,
                     settings: {

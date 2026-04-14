@@ -773,7 +773,7 @@
     }
 
     .package-panel-content{
-        padding-bottom: 28px;
+        padding-bottom: 0;
     }
 }
 .package-panel-content{
@@ -791,7 +791,7 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
     gap: 42px;
-    margin-bottom: 34px;
+    margin-bottom: 10px;
 }
 .package-list{
     margin: 0;
@@ -927,6 +927,8 @@
 
         img{
             max-height: 420px;
+            height: 250px;
+            position: static;
         }
     }
     .nav-item{
@@ -935,7 +937,7 @@
     }
     .navbar-collapse{
         .navbar-nav{
-            padding: 40px 0;
+            padding: 40px 0 0;
         }
         
     }
@@ -944,6 +946,7 @@
         height: 42px;
         margin-left: 0; 
         min-width: 140px;
+        margin-bottom: 20px;
 
         span {
             width: 40px;
@@ -1059,7 +1062,7 @@
     }
     .banner-text h1 {
         font-size: 36px;
-        line-height: 54px;
+        line-height: 48px;
     }
     .banner-group-image-main{
         height: auto;
@@ -1112,13 +1115,14 @@
         padding: 60px 0;
     }
     .company-support-section .section-heading h3 {
-        line-height: 40px;
+        line-height: normal;
     }
     .company-support-list-info{
         width: 100%;
     }
     .company-support-list-img{
-        display: none;
+        width: 300px;
+        margin-top: 15px;
     }
     .company-support-list-info h4 { 
         font-size: 20px;
@@ -1156,13 +1160,13 @@
     }
     .quick-implementation-text h2 {
         font-size: 22px;
-        line-height: 36px;
+        line-height: 30px;
     }
     .testimonial-slider-shell {
         padding: 0 0 0;
     }
     .package-card.is-open .package-media { 
-        display: none;
+         
     }
     .package-icon {
         width: 25px;
@@ -1185,6 +1189,7 @@
     .package-panel-content {
         padding: 0 0 0;
         overflow: hidden;
+        flex-flow: row wrap;
     }
     .package-card.is-open .package-panel-content {
         min-height: auto;
@@ -1193,12 +1198,26 @@
         width: 100%;
     }
     .site-footer-column{
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
     .site-footer-bottom-inner{
         align-items: center;
         gap: 10px;
         text-align: center;
+    }
+    .package-copy-grid { 
+        gap: 10px;
+    }
+    .site-footer-mark {  
+        width: 100%;
+        text-align: right;
+    } 
+    .site-footer-mark img {
+        width: 70px;
+        opacity: 1;
+    }
+    header .nav-item .nav-link.active, header .nav-item .nav-link:focus {
+        color: $primary-color !important;
     }
 }
 @media (max-width: 767px) {
