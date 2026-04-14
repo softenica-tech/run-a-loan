@@ -23,7 +23,7 @@
                         <p>
                             With our user-friendly, extremely powerful, loan management system.
                         </p>
-                        <a href="/request-demo" class="btn btn-site">
+                        <a href="request-demo.php" class="btn btn-site">
                             Request a Demo
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -55,7 +55,7 @@
                     <p>
                         Check out our options and features included. 
                     </p>
-                    <a href="/request-demo" class="btn btn-site btn-alt">
+                    <a href="request-demo.php" class="btn btn-site btn-alt">
                         Request a Demo
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -280,7 +280,7 @@
                             <p>
                                 RUN-A-LOAN is able to cater for a large range of products, giving you flexibility to tailor your lending offerings.
                             </p>
-                            <a href="/product-management">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                            <a href="product-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                         </div>
                     </div>
 
@@ -291,7 +291,7 @@
                             <p>
                                 From chart of accounts management, statements, audit trails to personalised business rules. 
                             </p>
-                            <a href="/business-administration">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                            <a href="business-administration.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                         </div>
                     </div>
 
@@ -302,7 +302,7 @@
                             <p>
                                 The RUN-A-LOAN solution provides a single view of a client, making client management simple and efficient. 
                             </p>
-                            <a href="/client-management">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                            <a href="client-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                         </div>
                     </div>
 
@@ -313,7 +313,7 @@
                             <p>
                                 Cloud based, fully managed. No need for additional IT staff or equipment, internet access is all that is required. 
                             </p>
-                            <a href="/system-management">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                            <a href="system-management.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                         </div>
                     </div>
 
@@ -324,7 +324,7 @@
                             <p>
                                 Starting a lending business? Managing a enterprise lending business? RUN-A-LOAN will cater for your requirements. 
                             </p>
-                            <a href="/system-scalability">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                            <a href="system-scalability.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                         </div>
                     </div>
 
@@ -335,7 +335,7 @@
                             <p>
                                 Credit bureaus, Payment bureaus, Selfie verification, Bank statement collection and much more. 
                             </p>
-                            <a href="/integrations">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
+                            <a href="integrations.php">Learn more <span><img src="images/learn-arrow.svg" alt="" class="img-fluid"></span></a>
                         </div>
                     </div>
 
@@ -358,7 +358,7 @@
                         <p>
                             The interface has been designed to be <strong>user-friendly</strong>, whilst the back-end functionality is extremely powerful and <strong>configurable</strong>. It is the perfect combination.
                         </p>
-                        <a href="/request-demo" class="btn btn-site">
+                        <a href="request-demo.php" class="btn btn-site">
                             Request a Demo
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -488,7 +488,7 @@
                                         </div>
                                     </div>
 
-                                    <a href="/request-demo" class="btn btn-site package-cta">
+                                    <a href="request-demo.php" class="btn btn-site package-cta">
                                         Request a demo
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -541,7 +541,7 @@
                                         </div>
                                     </div>
 
-                                    <a href="/request-demo" class="btn btn-site package-cta">
+                                    <a href="request-demo.php" class="btn btn-site package-cta">
                                         Request a demo
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -580,7 +580,7 @@
                                        
                                     </div>
 
-                                    <a href="/request-demo" class="btn btn-site package-cta">
+                                    <a href="request-demo.php" class="btn btn-site package-cta">
                                         Request a demo
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
