@@ -1,4 +1,12 @@
- // Back to Top 
+ 
+AOS.init({
+    duration: 800,        // animation duration
+    easing: 'ease-out-cubic',
+    once: true,           // animate only once
+    offset: 100           // trigger point
+}); 
+
+// Back to Top 
 const backToTop = document.getElementById("backToTop");
 
 window.addEventListener("scroll", () => {
