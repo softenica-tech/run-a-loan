@@ -77,12 +77,12 @@
 .request-demo-office-grid{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 20px;
+    gap: 40px;
     max-width: 880px;
     margin: 0 auto;
 }
 .request-demo-office-card{
-    min-height: 190px;
+    height: 190px;
     padding: 28px 22px;
     border: 1px solid rgba(119, 214, 227, 0.8);
     border-radius: 22px;
@@ -97,6 +97,17 @@
         font-size: 16px;
         line-height: 1.5;
         margin: 0;
+        color: $black-text;
+
+        a{
+            text-decoration: none;
+            color: $black-text;
+
+            &:hover{
+                text-decoration: underline;
+                text-underline-offset: 3px;
+            }
+        }
     }
 
     h4{
@@ -112,7 +123,7 @@
 .request-demo-office-icon{
     width: 42px;
     height: 42px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .request-demo-socials{
     display: flex;
@@ -125,6 +136,11 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
+        transition: transform 0.25s ease;
+
+        &:hover{
+            transform: translateY(-2px);
+        }
     }
 
     img{
@@ -132,6 +148,9 @@
         height: 100%;
         object-fit: contain;
     }
+}
+.country-select{
+    width: 100%;
 }
 .request-demo-contact{
     padding: 38px 0 102px;
@@ -145,9 +164,9 @@
 .request-demo-form-wrap{
     h2{
         font-family: $font-heading;
-        font-size: 64px;
+        font-size: 48px;
         font-weight: 500;
-        line-height: 0.95;
+        line-height: 54px;
         color: $black-text;
         text-transform: uppercase;
         margin-bottom: 42px;
@@ -176,7 +195,7 @@
         font-family: $font-text;
         font-size: 16px;
         line-height: 1.5;
-        padding: 18px 22px;
+        padding: 16.5px 22px;
         appearance: none;
 
         &::placeholder{

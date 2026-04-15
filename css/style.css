@@ -927,9 +927,7 @@ header .btn-site span svg {
   padding: 55px 35px 30px;
   border-radius: 20px;
   background: #61b5c0;
-  background: linear-gradient(-40deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
-  background: -webkit-linear-gradient(-40deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
-  background: -moz-linear-gradient(-40deg, rgba(97, 181, 192, 0.6) 0%, transparent 100%);
+  background: linear-gradient(135deg, #61B5C0 0%, rgba(97, 181, 192, 0) 60%);
   overflow: hidden;
 }
 .service-offer-card:hover .overlay-img {
@@ -1019,6 +1017,7 @@ header .btn-site span svg {
 .company-support-section {
   padding: 80px 0;
   background: #2f5565;
+  background: linear-gradient(180deg, #2F5565 20%, #172E37 100%);
 }
 .company-support-section .section-heading h3 {
   line-height: 54px;
@@ -1415,9 +1414,7 @@ header .btn-site span svg {
 }
 
 .package-card {
-  background: linear-gradient(0deg, #2f5565 0%, rgba(47, 85, 101, 0.1) 75%);
-  background: -webkit-linear-gradient(0deg, #2f5565 0%, rgba(47, 85, 101, 0.1) 5 75%);
-  background: -moz-linear-gradient(0deg, #2f5565 0%, rgba(47, 85, 101, 0.1) 75%);
+  background: linear-gradient(135deg, #2F5565 0%, rgba(47, 85, 101, 0.01) 75%);
   border: 1px solid rgba(119, 214, 227, 0.55);
   border-radius: 24px;
   overflow: hidden;
@@ -1934,6 +1931,20 @@ header .btn-site span svg {
   }
   header .nav-item .nav-link.active, header .nav-item .nav-link:focus {
     color: #77D6E3 !important;
+  }
+  .slick-dots li button {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .slick-dots li button:before {
+    font-size: 10px !important;
+  }
+  .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: #11111C !important;
+  }
+  .slick-dots {
+    bottom: -35px !important;
   }
 }
 @media (max-width: 767px) {
@@ -2591,13 +2602,13 @@ header .btn-site span svg {
 .request-demo-office-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 20px;
+  gap: 40px;
   max-width: 880px;
   margin: 0 auto;
 }
 
 .request-demo-office-card {
-  min-height: 190px;
+  height: 190px;
   padding: 28px 22px;
   border: 1px solid rgba(119, 214, 227, 0.8);
   border-radius: 22px;
@@ -2612,6 +2623,15 @@ header .btn-site span svg {
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
+  color: #11111C;
+}
+.request-demo-office-card p a {
+  text-decoration: none;
+  color: #11111C;
+}
+.request-demo-office-card p a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .request-demo-office-card h4 {
   font-family: "Mona Sans", sans-serif;
@@ -2626,7 +2646,7 @@ header .btn-site span svg {
 .request-demo-office-icon {
   width: 42px;
   height: 42px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .request-demo-socials {
@@ -2640,11 +2660,19 @@ header .btn-site span svg {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.25s ease;
+}
+.request-demo-socials a:hover {
+  transform: translateY(-2px);
 }
 .request-demo-socials img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.country-select {
+  width: 100%;
 }
 
 .request-demo-contact {
@@ -2660,9 +2688,9 @@ header .btn-site span svg {
 
 .request-demo-form-wrap h2 {
   font-family: "Mona Sans", sans-serif;
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 500;
-  line-height: 0.95;
+  line-height: 54px;
   color: #11111C;
   text-transform: uppercase;
   margin-bottom: 42px;
@@ -2690,7 +2718,7 @@ header .btn-site span svg {
   font-family: "Author", "Mona Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  padding: 18px 22px;
+  padding: 16.5px 22px;
   appearance: none;
 }
 .request-demo-field input::placeholder,
@@ -3198,6 +3226,18 @@ header .btn-site span svg {
   margin-bottom: 36px;
 }
 
+@media screen and (min-width: 1200px) and (max-height: 750px) {
+  .service-detail-sidebar-card {
+    padding: 20px;
+  }
+  .service-detail-sidebar-card h3 {
+    font-size: 18px;
+  }
+  .service-detail-sidebar-nav a {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
 @media (max-width: 1199px) {
   .service-detail-grid {
     grid-template-columns: 1fr;
