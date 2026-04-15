@@ -1331,6 +1331,31 @@ header .btn-site span svg {
   margin: 0;
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 110px;
+  right: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #11111C;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, background 0.3s ease;
+  z-index: 999;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 @media (max-width: 1399px) {
   .testimonial-arrow.testimonial-arrow-prev {
     left: -16px;
@@ -2323,8 +2348,8 @@ header .btn-site span svg {
 
 .faq-group-title {
   font-family: "Mona Sans", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   line-height: 1.1;
   text-transform: uppercase;
 }
@@ -3034,6 +3059,10 @@ header .btn-site span svg {
   background: #77d6e3;
 }
 
+.list-split {
+  column-count: 2;
+}
+
 .service-detail-list-section {
   margin-top: 52px;
 }
@@ -3296,6 +3325,9 @@ header .btn-site span svg {
   .service-detail-hero {
     min-height: 340px;
     padding: 140px 0 54px;
+  }
+  .list-split {
+    column-count: 1;
   }
   .service-detail-hero-inner {
     min-height: 126px;

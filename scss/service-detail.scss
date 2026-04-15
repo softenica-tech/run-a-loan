@@ -158,6 +158,9 @@
         }
     }
 }
+.list-split{
+    column-count: 2;
+}
 .service-detail-list-section{
     margin-top: 52px;
 
@@ -418,12 +421,16 @@
     .service-detail-cta-content h2{
         font-size: 42px;
     }
+    
 }
 
 @media (max-width: 767px){
     .service-detail-hero{
         min-height: 340px;
         padding: 140px 0 54px;
+    }
+    .list-split{
+        column-count: 1;
     }
     .service-detail-hero-inner{
         min-height: 126px;
