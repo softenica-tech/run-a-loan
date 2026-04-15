@@ -72,6 +72,7 @@ header{
         .dropdown-item{
             color: $black-text;
             text-transform: uppercase;
+            font-weight: 300;
 
             &.active,
             &:active{
@@ -151,6 +152,9 @@ header{
     }
 }
 @media (max-width: 991px) {
+    header .nav-item .nav-link:hover::before {
+        display: none;
+    }
     header .container {
         padding: 0 20px;
     }
