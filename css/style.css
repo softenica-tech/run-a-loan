@@ -311,6 +311,11 @@ b, strong {
   fill: #11111C;
 }
 
+.alert-success {
+  background-color: #2f5565;
+  color: #F5F5FC;
+}
+
 @media (min-width: 1320px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1264px;

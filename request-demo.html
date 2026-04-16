@@ -156,9 +156,11 @@
                     <div class="request-demo-form-wrap">
                         <h2 data-aos="fade-up" data-aos-delay="100">Fantastic, Let's Get Started</h2>
 
-                        <form class="request-demo-form" data-aos="fade-up" data-aos-delay="100">
+                        <form class="request-demo-form" novalidate data-aos="fade-up" data-aos-delay="100">
                             <div class="request-demo-field">
                                 <input type="text" name="full_name" placeholder="Full Name *" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Please provide your full name.</div>
                             </div>
 
                             <div class="request-demo-field">
@@ -169,15 +171,21 @@
                                     <option value="namibia">Namibia</option>
                                     <option value="zambia">Zambia</option>
                                 </select> -->
-                                <input type="text" id="country">
+                                <input type="text" id="country" placeholder="Your Country *" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Please select your country.</div>
                             </div>
 
                             <div class="request-demo-field">
                                 <input type="tel" name="contact_number" placeholder="Contact Number">
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Please provide a valid contact number.</div>
                             </div>
 
                             <div class="request-demo-field">
                                 <input type="email" name="email_address" placeholder="Email Address *" required>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Please provide a valid email address.</div>
                             </div>
 
                             <div class="request-demo-field">
@@ -192,6 +200,10 @@
                                     </svg>
                                 </span>
                             </button>
+
+                            <div id="success-alert" class="alert alert-success mt-3" style="display: none;">
+                                <strong>Success!</strong> Your message has been sent successfully.
+                            </div>
                         </form>
                     </div>
 
@@ -320,9 +332,96 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/country-select-js/2.1.0/js/countrySelect.min.js"></script>
     <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+
         // Country dropdown 
         $("#country").countrySelect({
             defaultCountry: "za"
+        });
+
+        // Form validation
+        const form = document.querySelector('.request-demo-form');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            // Hide success alert
+            document.getElementById('success-alert').style.display = 'none';
+
+            let isValid = true;
+
+            // Full Name
+            const fullName = form.full_name;
+            if (fullName.value.trim().length > 0) {
+                fullName.classList.add('is-valid');
+                fullName.classList.remove('is-invalid');
+            } else {
+                fullName.classList.add('is-invalid');
+                fullName.classList.remove('is-valid');
+                isValid = false;
+            }
+
+            // Country
+            const country = form.querySelector('#country');
+            if (country.value.trim().length > 0) {
+                country.classList.add('is-valid');
+                country.classList.remove('is-invalid');
+            } else {
+                country.classList.add('is-invalid');
+                country.classList.remove('is-valid');
+                isValid = false;
+            }
+
+            // Contact Number
+            const contactNumber = form.contact_number;
+            const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
+            if (contactNumber.value.trim().length === 0 || phoneRegex.test(contactNumber.value.trim())) {
+                contactNumber.classList.add('is-valid');
+                contactNumber.classList.remove('is-invalid');
+            } else {
+                contactNumber.classList.add('is-invalid');
+                contactNumber.classList.remove('is-valid');
+                isValid = false;
+            }
+
+            // Email
+            const email = form.email_address;
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailRegex.test(email.value.trim())) {
+                email.classList.add('is-valid');
+                email.classList.remove('is-invalid');
+            } else {
+                email.classList.add('is-invalid');
+                email.classList.remove('is-valid');
+                isValid = false;
+            }
+
+            // Message (optional)
+            const message = form.message;
+            message.classList.add('is-valid');
+            message.classList.remove('is-invalid');
+
+            form.classList.add('was-validated');
+
+            if (isValid) {
+                // Show success alert
+                document.getElementById('success-alert').style.display = 'block';
+                // Optionally reset the form: form.reset();
+            }
+        });
+
+        // Remove validation classes on input
+        const inputs = form.querySelectorAll('input, textarea');
+        inputs.forEach(input => {
+            input.addEventListener('input', function() {
+                input.classList.remove('is-valid', 'is-invalid');
+            });
         });
     </script>
     
