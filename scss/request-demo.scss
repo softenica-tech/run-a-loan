@@ -73,6 +73,15 @@
         text-transform: uppercase;
         margin-bottom: 26px;
     }
+
+    a{
+        color: $black-text;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }
 .request-demo-office-grid{
     display: grid;
