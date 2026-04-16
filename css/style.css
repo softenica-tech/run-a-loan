@@ -3083,7 +3083,7 @@ header .btn-site span svg {
   box-shadow: 0 18px 45px rgba(5, 20, 32, 0.16);
 }
 .service-detail-card:hover .service-detail-card-icon {
-  background-color: #77D6E3;
+  transform: scale(1.1);
 }
 .service-detail-card h3 {
   font-family: "Mona Sans", sans-serif;
@@ -3114,7 +3114,7 @@ header .btn-site span svg {
   justify-content: center;
   margin-bottom: 20px;
   padding: 14px;
-  transition: background-color 0.3s;
+  transition: transform 0.3s;
 }
 .service-detail-card-icon img {
   transition: 0.3s;
@@ -3166,7 +3166,23 @@ header .btn-site span svg {
 }
 .service-detail-list-section ul {
   padding-left: 0;
-  list-style-position: inside;
+  list-style: none;
+}
+.service-detail-list-section ul li {
+  position: relative;
+  padding-left: 33px; /* space for icon */
+  /* custom image bullet */
+}
+.service-detail-list-section ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 24px;
+  height: 12px;
+  background-image: url("../images/bullet-check.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .service-detail-list-grid {
