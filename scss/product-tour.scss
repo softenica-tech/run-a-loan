@@ -19,7 +19,7 @@
 
     h1{
         font-family: $font-heading;
-        font-size: 78px;
+        font-size: 72px;
         font-weight: 500;
         line-height: 1;
         color: $white-text;
@@ -174,7 +174,7 @@
     object-fit: cover;
 }
 .product-tour-cta-overlay{
-    background: rgba(4, 18, 29, 0.68);
+    background: rgba(4, 18, 29, 0.3);
 }
 .product-tour-cta-content{
     position: relative;

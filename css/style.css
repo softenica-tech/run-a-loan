@@ -2025,7 +2025,7 @@ header .btn-site span svg {
 }
 .product-tour-hero-inner h1 {
   font-family: "Mona Sans", sans-serif;
-  font-size: 78px;
+  font-size: 72px;
   font-weight: 500;
   line-height: 1;
   color: #F5F5FC;
@@ -2189,7 +2189,7 @@ header .btn-site span svg {
 }
 
 .product-tour-cta-overlay {
-  background: rgba(4, 18, 29, 0.68);
+  background: rgba(4, 18, 29, 0.3);
 }
 
 .product-tour-cta-content {
@@ -2505,7 +2505,7 @@ header .btn-site span svg {
 
 .faq-question-title {
   font-family: "Mona Sans", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
   color: #F5F5FC;
@@ -2522,7 +2522,7 @@ header .btn-site span svg {
   margin: 0;
   padding: 0 0 0 28px;
   color: rgba(245, 245, 252, 0.92);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.65;
 }
 
@@ -3339,7 +3339,7 @@ header .btn-site span svg {
 }
 
 .service-detail-cta-overlay {
-  background: rgba(4, 18, 29, 0.7);
+  background: rgba(4, 18, 29, 0.3);
 }
 
 .service-detail-cta-content {
