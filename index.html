@@ -283,7 +283,7 @@
                     </h3>
                 </div>
                 <div class="company-support-list-main">
-                    <div class="company-support-list" data-aos="fade" data-aos-delay="100">
+                    <div class="company-support-list">
                         <div class="company-support-list-info">
                             <h4>Enhances your image</h4>
                             <p>Professional documents and communications ensuring your corporate branding is consistent. Our customer portal and WhatsApp channels provide online application channels for your business. The advanced functionality of the RUN-A-LOAN system will make you to stand out from crowd.</p> 
@@ -292,7 +292,7 @@
                             <img src="images/support1.png" alt="Run a Loan">
                         </div>
                     </div>
-                    <div class="company-support-list" data-aos="fade" data-aos-delay="300">
+                    <div class="company-support-list">
                         <div class="company-support-list-info">
                             <h4>Expands your products</h4>
                             <p>Nano loans, payday loans, micro-loans, home loans, vehicle loans, taxi loans, building loans, agricultural loans, savings products, reward accounts and more. If you can lend it, RUN-A-LOAN can manage it.</p> 
@@ -302,7 +302,7 @@
                         </div>
                     </div>
 
-                    <div class="company-support-list" data-aos="fade" data-aos-delay="500">
+                    <div class="company-support-list">
                         <div class="company-support-list-info">
                             <h4>Ensures compliance</h4>
                             <p>Not only in terms of users complying with your business rules but regulatory compliance too. Audit-ability of all financial transactions in the system is standard.</p> 
@@ -311,7 +311,7 @@
                             <img src="images/support3.png" alt="Run a Loan">
                         </div>
                     </div>
-                    <div class="company-support-list" data-aos="fade" data-aos-delay="700">
+                    <div class="company-support-list">
                         <div class="company-support-list-info">
                             <h4>Increases profitability</h4>
                             <p>Reducing the administrative burden, increasing your collections rate and improving turnaround times. This together with automation and the flexibility to adjust your offerings to meet market demands, quickly and efficiently, will certainly increase your profitability.</p>  
@@ -321,7 +321,7 @@
                         </div>
                     </div>
 
-                    <div class="company-support-list" data-aos="fade" data-aos-delay="900">
+                    <div class="company-support-list">
                         <div class="company-support-list-info">
                             <h4>Saves you money</h4>
                             <p>You will not need any additional IT infrastructure or staff. No need to worry about disaster recovery, backups, monitoring etc as this is all taken care of. You can focus on taking care of your business.</p> 
@@ -330,7 +330,7 @@
                             <img src="images/support5.png" alt="Run a Loan">
                         </div>
                     </div>
-                    <div class="company-support-list" data-aos="fade" data-aos-delay="1000">
+                    <div class="company-support-list" >
                         <div class="company-support-list-info">
                             <h4>Saves you time</h4>
                             <p>Streamlined processes, automated collections, disbursements, scoring, approvals and comprehensive reporting capabilities. Real-time accounting package integration is also available, removing the need for manual interventions.</p> 
@@ -847,19 +847,56 @@
         // <!-- company stats  -->
 
         // <!-- company list show on hover  -->
-        const items = document.querySelectorAll(".company-support-list");
-        items[0].classList.add("active");
+       
+const items = document.querySelectorAll(".company-support-list");
 
-        items.forEach(item => {
-            item.addEventListener("mouseenter", () => {
+// default active
+items[0].classList.add("active");
+expandItem(items[0]);
 
-                // remove active from all
-                items.forEach(i => i.classList.remove("active"));
+items.forEach(item => {
+  item.addEventListener("mouseenter", () => {
 
-                // add active to current
-                item.classList.add("active");
-            });
-        });
+    items.forEach(i => {
+      collapseItem(i);
+      i.classList.remove("active");
+    });
+
+    item.classList.add("active");
+    expandItem(item);
+  });
+});
+
+// EXPAND
+function expandItem(item) {
+  const p = item.querySelector("p");
+  const img = item.querySelector(".company-support-list-img");
+
+  // TEXT
+  p.style.height = p.scrollHeight + "px";
+  p.style.opacity = "1";
+  p.style.transform = "translateY(0)";
+
+  // IMAGE
+  const imgInner = img.querySelector("img");
+  img.style.height = imgInner.scrollHeight + "px";
+  img.style.opacity = "1";
+  img.style.transform = "translateY(0)";
+}
+
+// COLLAPSE
+function collapseItem(item) {
+  const p = item.querySelector("p");
+  const img = item.querySelector(".company-support-list-img");
+
+  p.style.height = "0px";
+  p.style.opacity = "0";
+  p.style.transform = "translateY(15px)";
+
+  img.style.height = "0px";
+  img.style.opacity = "0";
+  img.style.transform = "translateY(15px)";
+} 
         // <!-- company list show on hover  -->
 
         // upgrade offers 
