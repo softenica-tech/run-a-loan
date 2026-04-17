@@ -2273,7 +2273,8 @@ header .btn-site span svg {
     min-height: 350px;
   }
   .product-tour-cta-content h2 {
-    font-size: 30px;
+    font-size: 22px;
+    line-height: 30px;
   }
   .product-tour-card-line {
     height: 175px;
@@ -3478,7 +3479,8 @@ header .btn-site span svg {
     min-height: auto;
   }
   .service-detail-cta-content h2 {
-    font-size: 30px;
+    font-size: 22px;
+    line-height: 30px;
   }
 }
 @media (max-width: 767px) {
