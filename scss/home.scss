@@ -1143,7 +1143,19 @@
         font-size: 17px;
     }
 }
-
+@media (max-width: 1199px) {
+    .functionalit-sider-wrapper .testimonial-arrow.functionality-arrow-next {
+        right: calc((100vw - 960px) / 2); 
+        top: -80px;
+    }
+    .functionalit-sider-wrapper .testimonial-arrow.functionality-arrow-prev {
+        right: calc((100vw - 750px) / 2); 
+        top: -80px;
+    }
+    .functionalit-sider-main{
+        padding-left: calc((100vw - 960px) / 2);
+    }
+}
 @media (max-width: 991px) {
     .btn-site{
         min-width: 220px;

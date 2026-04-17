@@ -178,6 +178,15 @@
         font-size: 14px;
         line-height: normal;
         margin: 0;
+
+        a{
+            color: $white-text;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
 
     span{
@@ -251,7 +260,16 @@
         align-items: flex-start;
     }
 }
-
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .site-footer-grid{
+        margin-bottom: 70px;
+        position: relative;  
+    }
+    .site-footer-mark { 
+        position: absolute;
+        bottom: -71px;
+    }
+}
 @media (max-width: 767px){
     .site-footer-main{
         padding-top: 40px;
