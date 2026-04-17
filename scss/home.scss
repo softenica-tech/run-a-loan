@@ -258,6 +258,7 @@
 }
 .company-support-list {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
@@ -281,24 +282,31 @@
 }
 
 .company-support-list-info h4 {
-  font-size: 24px;
-  color: #fff;
-  margin: 0;
+    font-family: $font-heading;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    color: $white-text;
+    margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 /* TEXT (ANIMATED HEIGHT) */
 .company-support-list-info p {
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(15px);
-
-  transition:
-    height 0.5s ease,
-    opacity 0.4s ease,
-    transform 0.5s ease;
+    color: $white-text;
+    margin: 0 0; 
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(15px); 
+    transition:
+        height 0.5s ease,
+        opacity 0.4s ease,
+        transform 0.5s ease;
 }
-
+.company-support-list.active .company-support-list-info p {
+    margin: 10px 0 10px;
+}
 /* IMAGE (ANIMATED HEIGHT) */
 .company-support-list-img {
   width: 32.3%;
@@ -1217,7 +1225,10 @@
     }
     .company-support-list-img{
         width: 300px;
-        margin-top: 15px;
+        // margin-top: 15px;
+    }
+    .company-support-list.active .company-support-list-info p {
+        margin: 10px 0 25px;
     }
     .company-support-list-info h4 { 
         font-size: 20px;
