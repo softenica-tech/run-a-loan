@@ -676,7 +676,7 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
-    transition: opacity 0.4s ease, transform 0.4s ease, background 0.3s ease;
+    transition: opacity 0.4s ease, transform 0.4s ease, box-shadow 0.1s ease, background 0.3s ease;
     z-index: 999;
 
     svg{
@@ -687,6 +687,9 @@
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+}
+#backToTop:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 1399px){
