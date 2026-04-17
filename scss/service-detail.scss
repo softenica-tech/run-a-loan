@@ -266,7 +266,7 @@
         font-size: 24px;
         line-height: 1.4;
         margin-bottom: 18px;
-        text-transform: uppercase;
+        text-transform: none;
     }
 
     cite{
@@ -395,6 +395,9 @@
     }
     .service-detail-hero-inner h1{
         font-size: 54px;
+    }
+    .service-detail-cta-content h2{
+        font-size: 32px;
     }
 
 }
@@ -603,7 +606,7 @@
 
         h2{
             font-size: 22px;
-            line-height: 1.4;
+            line-height: 30px;
         }
 
         p{
